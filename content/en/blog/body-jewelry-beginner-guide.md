@@ -10,7 +10,7 @@ tags: ["waist chain", "back jewelry", "anklet"]
 translationKey: "bijoux-de-corps-guide-debutant"
 image: "images/blog/bijoux-de-corps-guide-debutant.jpg"
 imageAlt: "Gold waist chain worn over a summer dress"
-imageCredit: "Nebuleuse illustration"
+imageCredit: "Le Mag Bijoux"
 faq:
   - question: "What is body jewelry?"
     answer: "Body jewelry means any piece worn on the body outside the face and hands: waist chains, anklets, back jewelry, harnesses or arm cuffs."

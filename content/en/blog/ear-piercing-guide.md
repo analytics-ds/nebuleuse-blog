@@ -10,7 +10,7 @@ tags: ["ear piercing", "helix", "tragus", "healing"]
 translationKey: "guide-piercing-oreille"
 image: "images/blog/guide-piercing-oreille.jpg"
 imageAlt: "Ear with multiple piercings on cartilage and lobe"
-imageCredit: "Nebuleuse illustration"
+imageCredit: "Le Mag Bijoux"
 faq:
   - question: "Which ear piercing hurts the least?"
     answer: "The earlobe piercing is the least painful since it goes through soft tissue without cartilage. The sensation is typically described as a brief pressure."

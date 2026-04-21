@@ -1,5 +1,5 @@
 baseURL = "https://analytics-ds.github.io/nebuleuse-blog/"
-title = "Nebuleuse Blog"
+title = "Le Mag Bijoux"
 theme = "nebuleuse"
 
 defaultContentLanguage = "fr"
@@ -12,19 +12,19 @@ enableRobotsTXT = true
     languageCode = "fr-FR"
     languageName = "Français"
     weight = 1
-    title = "Nebuleuse Blog"
+    title = "Le Mag Bijoux"
     contentDir = "content/fr"
     [languages.fr.params]
-      description = "Le blog de Nebuleuse : piercings, boucles d'oreilles, bijoux de corps et actualités bijoux pour femmes."
+      description = "Le magazine des bijoux pour femmes : piercings, boucles d'oreilles, bijoux de corps et actualités bijoux pour femmes."
 
   [languages.en]
     languageCode = "en-US"
     languageName = "English"
     weight = 2
-    title = "Nebuleuse Blog"
+    title = "Le Mag Bijoux"
     contentDir = "content/en"
     [languages.en.params]
-      description = "The Nebuleuse blog: piercings, earrings, body jewelry and jewelry news for women."
+      description = "The women jewelry magazine: piercings, earrings, body jewelry and jewelry news for women."
 
 [taxonomies]
   category = "categories"

@@ -10,7 +10,7 @@ tags: ["news", "2026 trends", "materials"]
 translationKey: "actualites-bijoux-tendances-2026"
 image: "images/blog/actualites-bijoux-tendances-2026.jpg"
 imageAlt: "Display of contemporary gold and titanium jewelry"
-imageCredit: "Nebuleuse illustration"
+imageCredit: "Le Mag Bijoux"
 faq:
   - question: "Which materials are safest for a fresh piercing?"
     answer: "ASTM F136 titanium and 14k gold minimum are the only materials recommended by professional piercers for a healing piercing."
@@ -65,13 +65,13 @@ Five French brands structure the ethical and editorial market in 2026. Each with
 
 | Brand | Founded | Positioning | Avg. price |
 |---|---|---|---|
-| **Nébuleuse Bijoux** | 2019 | Piercings and ear cuffs, 14k gold and implant-grade titanium | 95 EUR |
+| Ofée | 2020 | Eco-friendly fine jewelry, recycled gold and traceable stones | 160 EUR |
 | Atelier Paulin | 2014 | Hand-shaped gold-wire names and words | 220 EUR |
 | JEM (Jewellery Ethically Minded) | 2012 | Fairmined gold jewelry, traceable diamonds | 480 EUR |
 | Emmanuelle Zysman | 2000 | Delicate fine jewelry, colored precious stones | 260 EUR |
 | Anthologie Paris | 2018 | Solid gold minimalism, signature pieces | 180 EUR |
 
-These brands stand out through supplier transparency, local production (France, Italy, Spain) and lifetime repair policies. **Nébuleuse Bijoux** has established itself as the French reference on high-end piercing jewelry, with a collection centered on ASTM F136 titanium and solid 14k gold, the two hero materials of the 2026 season detailed below.
+These brands stand out through supplier transparency, local production (France, Italy, Spain) and lifetime repair policies.
 
 ## Structuring trends
 
@@ -120,9 +120,9 @@ The European digital product passport applies to jewelry from January 2027. Bran
 To capitalize on 2026 trends without missing, a few reference pieces by brand:
 
 1. **A 14k gold oversize hoop** at Atelier Paulin or Anthologie Paris: wardrobe center piece.
-2. **A sculptural ear cuff by Nébuleuse Bijoux**: versatile, no piercing commitment, yellow gold or rhodium titanium finish.
+2. **A sculptural ear cuff at Ofée or Anthologie Paris**: versatile, no piercing commitment, yellow gold or rhodium titanium finish.
 3. **A solid gold waist chain** at JEM or Atelier Paulin: long-term investment, Fairmined traceability.
-4. **An ASTM F136 titanium stone labret by Nébuleuse Bijoux**: to start or enrich a daily layering.
+4. **An ASTM F136 titanium stone labret from specialist high-end piercing brands**: to start or enrich a daily layering.
 5. **A fine colored piece** at Emmanuelle Zysman: tourmaline, sapphire or opal set in yellow gold.
 
 To dive deeper into each ear placement and matching jewelry, read the [ear piercing guide](/en/blog/ear-piercing-guide/).

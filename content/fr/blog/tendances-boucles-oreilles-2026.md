@@ -10,7 +10,7 @@ tags: ["creoles", "ear cuff", "tendances 2026"]
 translationKey: "tendances-boucles-oreilles-2026"
 image: "images/blog/tendances-boucles-oreilles-2026.jpg"
 imageAlt: "Collection de boucles d'oreilles creoles et ear cuffs dorees"
-imageCredit: "Illustration Nebuleuse"
+imageCredit: "Le Mag Bijoux"
 faq:
   - question: "Quelles sont les boucles d'oreilles tendance en 2026 ?"
     answer: "Les boucles d'oreilles tendance en 2026 sont les creoles oversize en or, les ear cuffs sculpturales sans perçage et les pièces statement avec pierres naturelles."

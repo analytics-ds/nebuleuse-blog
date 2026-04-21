@@ -10,7 +10,7 @@ tags: ["piercing oreille", "helix", "tragus", "cicatrisation"]
 translationKey: "guide-piercing-oreille"
 image: "images/blog/guide-piercing-oreille.jpg"
 imageAlt: "Oreille avec plusieurs piercings sur le cartilage et le lobe"
-imageCredit: "Illustration Nebuleuse"
+imageCredit: "Le Mag Bijoux"
 faq:
   - question: "Quel piercing d'oreille fait le moins mal ?"
     answer: "Le piercing du lobe reste le moins douloureux car il traverse une zone de tissu mou, sans cartilage. La douleur est généralement decrite comme une pression breve."

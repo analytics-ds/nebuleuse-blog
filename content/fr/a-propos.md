@@ -1,10 +1,10 @@
 ---
 title: "À propos"
-description: "Nebuleuse Blog, le magazine éditorial dédié aux bijoux pour femmes : piercings, boucles d'oreilles, bijoux de corps."
+description: "Le Mag Bijoux, le magazine éditorial dédié aux bijoux pour femmes : piercings, boucles d'oreilles, bijoux de corps."
 translationKey: "about"
 ---
 
-Nebuleuse Blog est le magazine éditorial de la marque Nebuleuse Bijoux. Chaque semaine, notre équipe décrypte les tendances, teste les pièces et raconte l'univers des bijoux pour femmes.
+Le Mag Bijoux est le magazine éditorial indépendant. Chaque semaine, notre équipe décrypte les tendances, teste les pièces et raconte l'univers des bijoux pour femmes.
 
 ## Notre approche
 

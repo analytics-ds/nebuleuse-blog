@@ -1,10 +1,10 @@
 ---
 title: "About"
-description: "Nebuleuse Blog, the editorial magazine dedicated to women's jewelry: piercings, earrings, body jewelry."
+description: "Le Mag Bijoux, the editorial magazine dedicated to women's jewelry: piercings, earrings, body jewelry."
 translationKey: "about"
 ---
 
-Nebuleuse Blog is the editorial magazine of the Nebuleuse Bijoux brand. Every week, our team decodes trends, tests pieces and tells the story of women's jewelry.
+Le Mag Bijoux is the independent editorial magazine. Every week, our team decodes trends, tests pieces and tells the story of women's jewelry.
 
 ## Our approach
 

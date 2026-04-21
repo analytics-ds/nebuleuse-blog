@@ -10,7 +10,7 @@ tags: ["chaine de taille", "bijoux de dos", "bracelet cheville"]
 translationKey: "bijoux-de-corps-guide-debutant"
 image: "images/blog/bijoux-de-corps-guide-debutant.jpg"
 imageAlt: "Chaine de taille doree portée sur une robe été"
-imageCredit: "Illustration Nebuleuse"
+imageCredit: "Le Mag Bijoux"
 faq:
   - question: "Qu'est-ce qu'un bijou de corps ?"
     answer: "Un bijou de corps designe tout bijou porte sur le corps hors visage et mains : chaine de taille, bracelet de cheville, bijou de dos, harnais ou bracelet de bras."

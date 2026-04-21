@@ -10,7 +10,7 @@ tags: ["hoops", "ear cuff", "2026 trends"]
 translationKey: "tendances-boucles-oreilles-2026"
 image: "images/blog/tendances-boucles-oreilles-2026.jpg"
 imageAlt: "Collection of gold hoop earrings and ear cuffs"
-imageCredit: "Nebuleuse illustration"
+imageCredit: "Le Mag Bijoux"
 faq:
   - question: "What earrings are trendy in 2026?"
     answer: "Trendy 2026 earrings include oversize gold hoops, sculptural piercing-free ear cuffs and statement pieces with natural stones."
