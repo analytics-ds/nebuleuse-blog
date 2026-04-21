@@ -8,7 +8,7 @@ author: magalie-ergoz
 categories: ["Body jewelry"]
 tags: ["waist chain", "back jewelry", "anklet"]
 translationKey: "bijoux-de-corps-guide-debutant"
-image: "/images/blog/bijoux-de-corps-guide-debutant.jpg"
+image: "images/blog/bijoux-de-corps-guide-debutant.jpg"
 imageAlt: "Gold waist chain worn over a summer dress"
 imageCredit: "Nebuleuse illustration"
 faq:

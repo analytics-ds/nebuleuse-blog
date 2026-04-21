@@ -8,7 +8,7 @@ author: magalie-ergoz
 categories: ["Actualites"]
 tags: ["actualités", "tendances 2026", "matériaux"]
 translationKey: "actualites-bijoux-tendances-2026"
-image: "/images/blog/actualites-bijoux-tendances-2026.jpg"
+image: "images/blog/actualites-bijoux-tendances-2026.jpg"
 imageAlt: "Présentation de bijoux contemporains en or et titane"
 imageCredit: "Illustration Nebuleuse"
 faq:

@@ -8,7 +8,7 @@ author: magalie-ergoz
 categories: ["Earrings"]
 tags: ["hoops", "ear cuff", "2026 trends"]
 translationKey: "tendances-boucles-oreilles-2026"
-image: "/images/blog/tendances-boucles-oreilles-2026.jpg"
+image: "images/blog/tendances-boucles-oreilles-2026.jpg"
 imageAlt: "Collection of gold hoop earrings and ear cuffs"
 imageCredit: "Nebuleuse illustration"
 faq:

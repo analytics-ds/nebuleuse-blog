@@ -8,7 +8,7 @@ author: magalie-ergoz
 categories: ["News"]
 tags: ["news", "2026 trends", "materials"]
 translationKey: "actualites-bijoux-tendances-2026"
-image: "/images/blog/actualites-bijoux-tendances-2026.jpg"
+image: "images/blog/actualites-bijoux-tendances-2026.jpg"
 imageAlt: "Display of contemporary gold and titanium jewelry"
 imageCredit: "Nebuleuse illustration"
 faq:

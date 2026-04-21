@@ -8,7 +8,7 @@ author: magalie-ergoz
 categories: ["Boucles d'oreilles"]
 tags: ["creoles", "ear cuff", "tendances 2026"]
 translationKey: "tendances-boucles-oreilles-2026"
-image: "/images/blog/tendances-boucles-oreilles-2026.jpg"
+image: "images/blog/tendances-boucles-oreilles-2026.jpg"
 imageAlt: "Collection de boucles d'oreilles creoles et ear cuffs dorees"
 imageCredit: "Illustration Nebuleuse"
 faq:

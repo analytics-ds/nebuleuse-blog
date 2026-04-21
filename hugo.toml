@@ -107,8 +107,8 @@ enableRobotsTXT = true
   weight = 3
 
 [params]
-  default_og_image = "/images/og-default.jpg"
-  logo = "/favicon.svg"
+  default_og_image = "images/og-default.jpg"
+  logo = "favicon.svg"
   founding_year = "2026"
   expertise = ["Bijoux pour femmes", "Piercings", "Boucles d'oreilles", "Bijoux de corps"]
   og_locale_alternate = "en_US"

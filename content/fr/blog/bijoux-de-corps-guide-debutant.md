@@ -8,7 +8,7 @@ author: magalie-ergoz
 categories: ["Bijoux de corps"]
 tags: ["chaine de taille", "bijoux de dos", "bracelet cheville"]
 translationKey: "bijoux-de-corps-guide-debutant"
-image: "/images/blog/bijoux-de-corps-guide-debutant.jpg"
+image: "images/blog/bijoux-de-corps-guide-debutant.jpg"
 imageAlt: "Chaine de taille doree portée sur une robe été"
 imageCredit: "Illustration Nebuleuse"
 faq:

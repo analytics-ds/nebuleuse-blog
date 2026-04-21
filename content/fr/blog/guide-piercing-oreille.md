@@ -8,7 +8,7 @@ author: magalie-ergoz
 categories: ["Piercings"]
 tags: ["piercing oreille", "helix", "tragus", "cicatrisation"]
 translationKey: "guide-piercing-oreille"
-image: "/images/blog/guide-piercing-oreille.jpg"
+image: "images/blog/guide-piercing-oreille.jpg"
 imageAlt: "Oreille avec plusieurs piercings sur le cartilage et le lobe"
 imageCredit: "Illustration Nebuleuse"
 faq:
