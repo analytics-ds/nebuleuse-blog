@@ -1,0 +1,371 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Quel Placement" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Quel Placement" [ref=e6]
+      - generic [ref=e7]:
+        - button "Select language" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: FR
+          - img [ref=e10]
+        - listbox:
+          - option "Francais" [selected]:
+            - link "Francais":
+              - /url: /
+              - generic: Francais
+              - img
+          - option "English":
+            - link "English":
+              - /url: /en/
+              - generic: English
+      - button "Menu" [ref=e12] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: La finance enfin claire
+        - heading "Choisissez votre prochain placement en toute confiance" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Analyses factuelles, comparatifs clairs et zero jargon pour décoder fiscalité, épargne, immobilier et private equity.
+        - generic [ref=e21]:
+          - link "Explorez le blog" [ref=e22] [cursor=pointer]:
+            - /url: /blog/
+          - link "Voir le lexique" [ref=e23] [cursor=pointer]:
+            - /url: /lexique/
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: Fiscalité
+          - generic [ref=e27]: "IFI 2026 : seuils et strategies"
+        - generic [ref=e33]:
+          - generic [ref=e34]: Rendement net
+          - generic [ref=e35]: +4,2%
+          - generic [ref=e36]: +0,3 pt vs 2025
+        - generic [ref=e37]:
+          - generic [ref=e38]: Assurance vie
+          - generic [ref=e41]: 72% des portefeuilles
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: "147"
+        - generic [ref=e47]: placements décodés, expliques, comparés
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]: "6"
+          - text: Thematiques couvertes
+        - generic [ref=e51]:
+          - generic [ref=e52]: 100%
+          - text: Analyses independantes, zero sponsoring
+        - generic [ref=e53]:
+          - generic [ref=e54]: 48h
+          - text: Reponse aux questions lecteurs
+    - generic [ref=e56]:
+      - heading "Adieu jargon, bonjour Quel Placement" [level=2] [ref=e57]
+      - paragraph [ref=e58]: Un sujet, un article, une réponse claire. Pas de discours marketing, que des faits, des methodes et des chiffres vérifiés.
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - heading "Decoder toutes les enveloppes fiscales en une lecture" [level=3] [ref=e63]
+          - paragraph [ref=e64]: "PEA, PER, assurance vie, FCPR : chaque enveloppe comparée critère par critère, avec les vrais avantages et limités."
+          - list [ref=e65]:
+            - listitem [ref=e66]: Tableaux comparatifs simples
+            - listitem [ref=e67]: Fiscalité expliquee sans jargon
+            - listitem [ref=e68]: Checklists de décision par profil
+        - generic [ref=e70]:
+          - generic [ref=e71]: Comparatif
+          - generic [ref=e72]:
+            - generic [ref=e73]: PEA
+            - generic [ref=e76]: 5 ans
+          - generic [ref=e77]:
+            - generic [ref=e78]: Assurance vie
+            - generic [ref=e81]: 8 ans
+          - generic [ref=e82]:
+            - generic [ref=e83]: PER
+            - generic [ref=e86]: Retraite
+          - generic [ref=e87]:
+            - generic [ref=e88]: FCPR
+            - generic [ref=e91]: 7-10 ans
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - heading "Comparez les vraies offres du marché, pas des brochures" [level=3] [ref=e94]
+          - paragraph [ref=e95]: "Frais, rendements, souplesse : on epluche les petites lignes pour vous."
+          - list [ref=e96]:
+            - listitem [ref=e97]: Frais détaillés jusqu'a la ligne cachee
+            - listitem [ref=e98]: Performances reelles vs promesses
+            - listitem [ref=e99]: Alertes sur les produits perdants
+        - generic [ref=e101]:
+          - generic [ref=e102]: Taux reels
+          - generic [ref=e103]:
+            - generic [ref=e104]: Meilleure banque en ligne
+            - generic [ref=e105]: "-82%"
+          - generic [ref=e106]:
+            - generic [ref=e107]: Frais banque classique
+            - generic [ref=e108]: +212 €/an
+          - generic [ref=e109]:
+            - generic [ref=e110]: Fonds euros 2026
+            - generic [ref=e111]: +2,8%
+          - img [ref=e113]
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - heading "Restez au courant de l'actu finance qui compte" [level=3] [ref=e117]
+          - paragraph [ref=e118]: "Loi de finances, taux BCE, nouveaux dispositifs : on filtre, resume et explique l'impact sur votre patrimoine."
+          - list [ref=e119]:
+            - listitem [ref=e120]: Mises a jour fiscales chaque trimestre
+            - listitem [ref=e121]: Lois decryptees en moins de 3 min
+            - listitem [ref=e122]: Recommandations d'action concretes
+        - generic [ref=e124]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: "IFI 2026 : barème inchange"
+            - generic [ref=e129]: il y a 2 jours
+          - generic [ref=e132]:
+            - generic [ref=e133]: La BCE maintient ses taux
+            - generic [ref=e134]: il y a 5 jours
+          - generic [ref=e137]:
+            - generic [ref=e138]: "Livret A : nouveau taux"
+            - generic [ref=e139]: il y a 1 semaine
+    - generic [ref=e141]:
+      - heading "3 étapes simples pour bien investir" [level=2] [ref=e142]
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e145]: "1"
+          - generic [ref=e146]:
+            - heading "Faites le bilan de votre situation" [level=3] [ref=e147]
+            - paragraph [ref=e148]: "Revenus, épargne, tranche d'imposition, horizon : une radiographie claire de votre point de depart."
+        - generic [ref=e149]:
+          - generic [ref=e150]: "2"
+          - generic [ref=e151]:
+            - heading "Identifiez vos objectifs" [level=3] [ref=e152]
+            - paragraph [ref=e153]: "Retraite, transmission, immobilier, épargne de précaution : chaque objectif a son enveloppe."
+        - generic [ref=e154]:
+          - generic [ref=e155]: "3"
+          - generic [ref=e156]:
+            - heading "Choisissez les bonnes enveloppes" [level=3] [ref=e157]
+            - paragraph [ref=e158]: PEA, assurance vie, PER, FCPR... nos articles vous guident avec des exemples concrets.
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e163]: Nouveau simulateur
+        - heading "Calculez votre capacite d'emprunt en 30 secondes" [level=2] [ref=e164]
+        - paragraph [ref=e165]: Mensualite max, capital empruntable et TAEG reel face au taux d'usure 2e trimestre 2026. Gratuit, sans inscription.
+        - link "Lancer le simulateur" [ref=e166] [cursor=pointer]:
+          - /url: /simulateurs/capacite-emprunt/
+          - text: Lancer le simulateur
+          - img [ref=e167]
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - generic [ref=e172]: 240 K€
+          - generic [ref=e173]: Capital exemple
+        - generic [ref=e174]:
+          - generic [ref=e175]: 1 225 €
+          - generic [ref=e176]: Mensualite max
+        - generic [ref=e177]:
+          - generic [ref=e178]: 4,15 %
+          - generic [ref=e179]: TAEG simule
+        - generic [ref=e180]:
+          - generic [ref=e181]: 5,19 %
+          - generic [ref=e182]: Plafond usure
+    - generic [ref=e184]:
+      - heading "Nos thematiques" [level=2] [ref=e185]
+      - generic [ref=e186]:
+        - link "Assurance 2 articles" [ref=e187] [cursor=pointer]:
+          - /url: /categories/assurance/
+          - heading "Assurance" [level=3] [ref=e188]
+          - text: 2 articles
+        - link "Compte bancaire 2 articles" [ref=e189] [cursor=pointer]:
+          - /url: /categories/compte-bancaire/
+          - heading "Compte bancaire" [level=3] [ref=e190]
+          - text: 2 articles
+        - link "Credit 3 articles" [ref=e191] [cursor=pointer]:
+          - /url: /categories/credit/
+          - heading "Credit" [level=3] [ref=e192]
+          - text: 3 articles
+        - link "Epargne 2 articles" [ref=e193] [cursor=pointer]:
+          - /url: /categories/epargne/
+          - heading "Epargne" [level=3] [ref=e194]
+          - text: 2 articles
+        - link "Fiscalite 5 articles" [ref=e195] [cursor=pointer]:
+          - /url: /categories/fiscalite/
+          - heading "Fiscalite" [level=3] [ref=e196]
+          - text: 5 articles
+        - link "Private Equity 2 articles" [ref=e197] [cursor=pointer]:
+          - /url: /categories/private-equity/
+          - heading "Private Equity" [level=3] [ref=e198]
+          - text: 2 articles
+    - generic [ref=e200]:
+      - heading "Derniers articles" [level=2] [ref=e201]
+      - generic [ref=e202]:
+        - article [ref=e203]:
+          - 'link "Declaration d''impots 2026 pour les jeunes : le guide complet" [ref=e204] [cursor=pointer]':
+            - /url: /blog/declaration-impots-2026-jeunes/
+            - img "Jeune remplissant sa declaration d'impots en ligne en 2026" [ref=e205]
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - generic [ref=e208]: Fiscalite
+              - time [ref=e209]: 20 April 2026
+            - 'heading "Declaration d''impots 2026 pour les jeunes : le guide complet" [level=3] [ref=e210]':
+              - 'link "Declaration d''impots 2026 pour les jeunes : le guide complet" [ref=e211] [cursor=pointer]':
+                - /url: /blog/declaration-impots-2026-jeunes/
+            - paragraph [ref=e212]: "Declaration d'impots 2026 pour etudiants, apprentis et jeunes actifs : rattachement au foyer fiscal, abattements, dates et cas pratiques chiffres."
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - img "Sophie Martin" [ref=e215]
+                - generic [ref=e216]: Sophie Martin
+              - link "Lire la suite" [ref=e217] [cursor=pointer]:
+                - /url: /blog/declaration-impots-2026-jeunes/
+        - article [ref=e218]:
+          - 'link "Bareme de l''impot sur le revenu 2026 : les nouvelles tranches revalorisees" [ref=e219] [cursor=pointer]':
+            - /url: /blog/bareme-impot-revenu-2026/
+            - img "Bareme impot sur le revenu 2026 et nouvelles tranches" [ref=e220]
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - generic [ref=e223]: Fiscalite
+              - time [ref=e224]: 19 April 2026
+            - 'heading "Bareme de l''impot sur le revenu 2026 : les nouvelles tranches revalorisees" [level=3] [ref=e225]':
+              - 'link "Bareme de l''impot sur le revenu 2026 : les nouvelles tranches revalorisees" [ref=e226] [cursor=pointer]':
+                - /url: /blog/bareme-impot-revenu-2026/
+            - paragraph [ref=e227]: "Le bareme 2026 revalorise de 0,9 pour cent : nouvelles tranches d'imposition, impact sur vos impots et cas pratiques chiffres."
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - img "Sophie Martin" [ref=e230]
+                - generic [ref=e231]: Sophie Martin
+              - link "Lire la suite" [ref=e232] [cursor=pointer]:
+                - /url: /blog/bareme-impot-revenu-2026/
+        - article [ref=e233]:
+          - 'link "Dispositif Jeanbrun 2026 : le nouveau statut du bailleur prive" [ref=e234] [cursor=pointer]':
+            - /url: /blog/dispositif-jeanbrun-statut-bailleur-prive/
+            - img "Cle de logement neuf symbolisant le dispositif Jeanbrun 2026" [ref=e235]
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - generic [ref=e238]: Fiscalite
+              - time [ref=e239]: 19 April 2026
+            - 'heading "Dispositif Jeanbrun 2026 : le nouveau statut du bailleur prive" [level=3] [ref=e240]':
+              - 'link "Dispositif Jeanbrun 2026 : le nouveau statut du bailleur prive" [ref=e241] [cursor=pointer]':
+                - /url: /blog/dispositif-jeanbrun-statut-bailleur-prive/
+            - paragraph [ref=e242]: "Le dispositif Jeanbrun remplace le Pinel en 2026. Tout comprendre du statut du bailleur prive : amortissement, plafonds, loyers, conditions et differences avec l'ancien dispositif."
+            - generic [ref=e243]:
+              - generic [ref=e244]:
+                - img "Sophie Martin" [ref=e245]
+                - generic [ref=e246]: Sophie Martin
+              - link "Lire la suite" [ref=e247] [cursor=pointer]:
+                - /url: /blog/dispositif-jeanbrun-statut-bailleur-prive/
+        - article [ref=e248]:
+          - 'link "PER (Plan d''Epargne Retraite) : le guide complet 2026" [ref=e249] [cursor=pointer]':
+            - /url: /blog/per-plan-epargne-retraite-guide/
+            - img "Tirelire rose sur des billets en euros symbolisant l'epargne retraite" [ref=e250]
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - generic [ref=e253]: Epargne
+              - time [ref=e254]: 19 April 2026
+            - 'heading "PER (Plan d''Epargne Retraite) : le guide complet 2026" [level=3] [ref=e255]':
+              - 'link "PER (Plan d''Epargne Retraite) : le guide complet 2026" [ref=e256] [cursor=pointer]':
+                - /url: /blog/per-plan-epargne-retraite-guide/
+            - paragraph [ref=e257]: "Tout comprendre au PER en 2026 : fonctionnement, fiscalite a l'entree et a la sortie, plafond de deduction, sortie en capital ou en rente, meilleurs contrats."
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - img "Sophie Martin" [ref=e260]
+                - generic [ref=e261]: Sophie Martin
+              - link "Lire la suite" [ref=e262] [cursor=pointer]:
+                - /url: /blog/per-plan-epargne-retraite-guide/
+        - article [ref=e263]:
+          - 'link "Taux d''usure 2e trimestre 2026 : les nouveaux plafonds du credit immobilier" [ref=e264] [cursor=pointer]':
+            - /url: /blog/taux-usure-2e-trimestre-2026/
+            - img "Taux d'usure 2e trimestre 2026 pour credit immobilier" [ref=e265]
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - generic [ref=e268]: Credit
+              - time [ref=e269]: 19 April 2026
+            - 'heading "Taux d''usure 2e trimestre 2026 : les nouveaux plafonds du credit immobilier" [level=3] [ref=e270]':
+              - 'link "Taux d''usure 2e trimestre 2026 : les nouveaux plafonds du credit immobilier" [ref=e271] [cursor=pointer]':
+                - /url: /blog/taux-usure-2e-trimestre-2026/
+            - paragraph [ref=e272]: Taux d'usure applicables du 1er avril au 30 juin 2026. Plafonds par duree de credit, evolution et impact sur la capacite d'emprunt.
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - img "Sophie Martin" [ref=e275]
+                - generic [ref=e276]: Sophie Martin
+              - link "Lire la suite" [ref=e277] [cursor=pointer]:
+                - /url: /blog/taux-usure-2e-trimestre-2026/
+        - article [ref=e278]:
+          - 'link "Comprendre l''IFI en 2026 : seuils, biens concernes et strategies" [ref=e279] [cursor=pointer]':
+            - /url: /blog/comprendre-ifi-2026/
+            - 'img "Illustration IFI 2026 : calculatrice et documents immobiliers" [ref=e280]'
+          - generic [ref=e281]:
+            - generic [ref=e282]:
+              - generic [ref=e283]: Fiscalite
+              - time [ref=e284]: 14 April 2026
+            - 'heading "Comprendre l''IFI en 2026 : seuils, biens concernes et strategies" [level=3] [ref=e285]':
+              - 'link "Comprendre l''IFI en 2026 : seuils, biens concernes et strategies" [ref=e286] [cursor=pointer]':
+                - /url: /blog/comprendre-ifi-2026/
+            - paragraph [ref=e287]: "Tout savoir sur l'Impôt sur la Fortune Immobiliere en 2026 : seuil de declenchement, biens taxables, abattements et leviers de réduction legaux."
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - img "Sophie Martin" [ref=e290]
+                - generic [ref=e291]: Sophie Martin
+              - link "Lire la suite" [ref=e292] [cursor=pointer]:
+                - /url: /blog/comprendre-ifi-2026/
+    - generic [ref=e294]:
+      - heading "Lancez votre prochain placement des aujourd'hui" [level=2] [ref=e295]
+      - link "Commencer a lire" [ref=e296] [cursor=pointer]:
+        - /url: /blog/
+    - generic [ref=e298]:
+      - heading "Questions fréquentes" [level=2] [ref=e299]
+      - generic [ref=e300]:
+        - group [ref=e301]:
+          - generic "Par ou commencer pour investir ? +" [ref=e302] [cursor=pointer]
+        - group [ref=e303]:
+          - generic "L'assurance vie est-elle encore intéressante en 2026 ? +" [ref=e304] [cursor=pointer]
+        - group [ref=e305]:
+          - generic "Le PER vaut-il le coup d'etre souscrit ? +" [ref=e306] [cursor=pointer]
+        - group [ref=e307]:
+          - generic "Peut-on investir sans risque ? +" [ref=e308] [cursor=pointer]
+        - group [ref=e309]:
+          - generic "Quel Placement est-il vraiment indépendant ? +" [ref=e310] [cursor=pointer]
+  - contentinfo [ref=e311]:
+    - generic [ref=e312]:
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - heading "Quel Placement" [level=4] [ref=e315]
+          - paragraph [ref=e316]: Le blog reference pour comprendre la finance, l'investissement et choisir les meilleurs placements.
+        - generic [ref=e317]:
+          - heading "Categories" [level=4] [ref=e318]
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - link "Assurance" [ref=e321] [cursor=pointer]:
+                - /url: /categories/assurance/
+            - listitem [ref=e322]:
+              - link "Compte bancaire" [ref=e323] [cursor=pointer]:
+                - /url: /categories/compte-bancaire/
+            - listitem [ref=e324]:
+              - link "Credit" [ref=e325] [cursor=pointer]:
+                - /url: /categories/credit/
+            - listitem [ref=e326]:
+              - link "Epargne" [ref=e327] [cursor=pointer]:
+                - /url: /categories/epargne/
+            - listitem [ref=e328]:
+              - link "Fiscalite" [ref=e329] [cursor=pointer]:
+                - /url: /categories/fiscalite/
+            - listitem [ref=e330]:
+              - link "Private Equity" [ref=e331] [cursor=pointer]:
+                - /url: /categories/private-equity/
+            - listitem [ref=e332]:
+              - link "Savings" [ref=e333] [cursor=pointer]:
+                - /url: /categories/savings/
+            - listitem [ref=e334]:
+              - link "Taxation" [ref=e335] [cursor=pointer]:
+                - /url: /categories/taxation/
+        - generic [ref=e336]:
+          - heading "Navigation" [level=4] [ref=e337]
+          - navigation "Footer navigation" [ref=e338]:
+            - list [ref=e339]:
+              - listitem [ref=e340]:
+                - link "Simulateur capacite d'emprunt" [ref=e341] [cursor=pointer]:
+                  - /url: /simulateurs/capacite-emprunt/
+              - listitem [ref=e342]:
+                - link "Lexique" [ref=e343] [cursor=pointer]:
+                  - /url: /lexique/
+              - listitem [ref=e344]:
+                - link "A propos" [ref=e345] [cursor=pointer]:
+                  - /url: /a-propos/
+              - listitem [ref=e346]:
+                - link "Contact" [ref=e347] [cursor=pointer]:
+                  - /url: /contact/
+              - listitem [ref=e348]:
+                - link "Plan du site" [ref=e349] [cursor=pointer]:
+                  - /url: /plan-du-site/
+      - paragraph [ref=e351]: © 2026 Quel Placement. Tous droits réservés.

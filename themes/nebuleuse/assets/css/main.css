@@ -1694,6 +1694,191 @@ img {
     }
 }
 
+/* --- Stats cosmic --- */
+.stats-cosmic {
+    background-color: #0A0A0A;
+    color: #fff;
+    padding: var(--space-lg) 0;
+    border-bottom: 1px solid rgba(201, 169, 97, 0.15);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+    text-align: center;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.stat-number {
+    font-family: var(--font-heading);
+    font-size: clamp(2.2rem, 4vw, 3rem);
+    font-weight: 600;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.stat-label {
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: rgba(255,255,255,0.7);
+}
+
+@media (max-width: 768px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-sm) var(--space-md); }
+}
+
+/* --- Intro signature section --- */
+.section-intro {
+    padding: var(--space-xl) 0 var(--space-lg);
+    text-align: center;
+}
+
+.section-title-big {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 600;
+    color: var(--primary);
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    margin: 0 0 var(--space-md);
+}
+
+.section-intro-text {
+    font-family: var(--font-body);
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--text-light);
+    line-height: 1.7;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+/* --- 3 steps section --- */
+.steps-section {
+    padding: var(--space-xl) 0;
+    background-color: var(--background-alt);
+}
+
+.steps-section .section-eyebrow,
+.steps-section .section-title-big {
+    text-align: center;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+}
+
+.step-card {
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg) var(--space-md);
+    position: relative;
+    transition: all var(--transition-base);
+}
+
+.step-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent);
+    transform: translateY(-3px);
+}
+
+.step-num {
+    position: absolute;
+    top: -20px;
+    left: var(--space-md);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--accent);
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--accent);
+}
+
+.step-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin: var(--space-sm) 0 var(--space-xs);
+    letter-spacing: 0.02em;
+}
+
+.step-card p {
+    font-family: var(--font-body);
+    font-size: 0.98rem;
+    color: var(--text-light);
+    line-height: 1.65;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .steps-grid { grid-template-columns: 1fr; gap: var(--space-lg); }
+}
+
+/* --- CTA final --- */
+.cta-final {
+    background-color: #0A0A0A;
+    color: #fff;
+    padding: var(--space-xl) 0;
+    text-align: center;
+}
+
+.cta-final h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.02em;
+    margin: 0 0 var(--space-sm);
+}
+
+.cta-final p {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 1.05rem;
+    color: rgba(255,255,255,0.75);
+    margin: 0 0 var(--space-md);
+}
+
+.btn-cta-dark {
+    display: inline-block;
+    background-color: var(--accent);
+    color: #0A0A0A;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 1rem 2.2rem;
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    transition: all var(--transition-base);
+    border: 1px solid var(--accent);
+}
+
+.btn-cta-dark:hover {
+    background-color: transparent;
+    color: var(--accent);
+}
+
 /* --- Home FAQ --- */
 .home-faq {
     padding: var(--space-xl) 0;

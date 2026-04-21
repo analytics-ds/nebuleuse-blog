@@ -14,6 +14,39 @@
     </div>
 </section>
 
+<!-- Stats / Chiffres cles -->
+<section class="stats-cosmic">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">150+</span>
+                <span class="stat-label">{{ if $isEN }}Articles decoded{{ else }}Articles décryptés{{ end }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">4</span>
+                <span class="stat-label">{{ if $isEN }}Topics covered{{ else }}Thématiques couvertes{{ end }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">{{ if $isEN }}Independent content{{ else }}Contenu indépendant{{ end }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">6</span>
+                <span class="stat-label">{{ if $isEN }}Editorial experts{{ else }}Expertes éditoriales{{ end }}</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Intro signature -->
+<section class="section-intro">
+    <div class="container-narrow">
+        <p class="section-eyebrow">{{ if $isEN }}Our promise{{ else }}Notre promesse{{ end }}</p>
+        <h2 class="section-title-big">{{ if $isEN }}Adieu jargon, bonjour clarté bijoux{{ else }}Adieu jargon, bonjour clarté bijoux{{ end }}</h2>
+        <p class="section-intro-text">{{ if $isEN }}One topic, one article, one clear answer. No marketing talk, only facts: metals, piercing care, ethical brands, trends that last.{{ else }}Un sujet, un article, une réponse claire. Pas de discours marketing, que des faits : métaux, cicatrisation des piercings, marques éthiques, tendances qui durent.{{ end }}</p>
+    </div>
+</section>
+
 <!-- Featured article (À la une) -->
 {{ with $featured }}
 <section class="featured-article">
@@ -86,6 +119,40 @@
             </article>
             {{ end }}
         </div>
+    </div>
+</section>
+
+<!-- 3 etapes pour debuter -->
+<section class="steps-section">
+    <div class="container">
+        <p class="section-eyebrow">{{ if $isEN }}Getting started{{ else }}Pour débuter{{ end }}</p>
+        <h2 class="section-title-big">{{ if $isEN }}3 steps to a timeless jewelry wardrobe{{ else }}3 étapes pour une garde-robe bijoux qui dure{{ end }}</h2>
+        <div class="steps-grid">
+            <div class="step-card">
+                <span class="step-num">1</span>
+                <h3>{{ if $isEN }}Identify your style{{ else }}Identifier son style{{ end }}</h3>
+                <p>{{ if $isEN }}Minimal, boho, statement or editorial: define the register before any purchase. The silhouette guides the piece, not the other way around.{{ else }}Minimal, bohème, statement ou éditorial : définir le registre avant tout achat. La silhouette guide la pièce, pas l'inverse.{{ end }}</p>
+            </div>
+            <div class="step-card">
+                <span class="step-num">2</span>
+                <h3>{{ if $isEN }}Pick the right metal{{ else }}Choisir le bon métal{{ end }}</h3>
+                <p>{{ if $isEN }}Solid 14k gold, implant-grade titanium or high-quality vermeil: the choice defines durability, skin tolerance and residual value.{{ else }}Or 14 carats massif, titane implantable ou vermeil de qualité : le choix détermine durabilité, tolérance cutanée et valeur résiduelle.{{ end }}</p>
+            </div>
+            <div class="step-card">
+                <span class="step-num">3</span>
+                <h3>{{ if $isEN }}Build your layering{{ else }}Construire son layering{{ end }}</h3>
+                <p>{{ if $isEN }}One statement piece, two mid pieces, a fine helix piece: three pieces are enough to structure a signature ear and a coherent silhouette.{{ else }}Une pièce statement, deux pièces moyennes, une pièce fine sur l'helix : trois bijoux suffisent pour structurer une oreille signature et une silhouette cohérente.{{ end }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA final -->
+<section class="cta-final">
+    <div class="container-narrow">
+        <h2>{{ if $isEN }}Start building your jewelry collection today{{ else }}Composez votre collection bijoux dès aujourd'hui{{ end }}</h2>
+        <p>{{ if $isEN }}Guides, comparisons and news to choose with confidence.{{ else }}Guides, comparatifs et actualités pour choisir en confiance.{{ end }}</p>
+        <a href="{{ "blog/" | relURL }}" class="btn-cta-dark">{{ if $isEN }}Explore the articles{{ else }}Explorer les articles{{ end }}</a>
     </div>
 </section>
 
