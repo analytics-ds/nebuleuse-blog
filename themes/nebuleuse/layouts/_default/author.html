@@ -1,0 +1,61 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+{{ $authorId := .Params.authorId | default (path.Base .File.Path | strings.TrimSuffix ".md") }}
+{{ $author := index site.Data.authors $authorId }}
+
+<article class="author-page">
+    <div class="container-narrow">
+        {{ if $author }}
+        <header class="author-header">
+            {{ with $author.avatar }}
+            <img src="{{ . | relURL }}" alt="{{ $author.name }}" class="author-page-avatar" width="200" height="200">
+            {{ end }}
+            <p class="section-eyebrow">{{ if eq $lang "en" }}About the author{{ else }}À propos de l'auteur{{ end }}</p>
+            <h1 class="author-page-name">{{ $author.name }}</h1>
+            {{ with index $author.role $lang }}
+            <p class="author-page-role">{{ . }}</p>
+            {{ end }}
+            {{ with index $author.bio $lang }}
+            <p class="author-page-bio">{{ . }}</p>
+            {{ end }}
+            {{ with $author.expertise }}
+            <div class="author-page-expertise">
+                <span class="author-box-expertise-label">{{ if eq $lang "en" }}Expertise{{ else }}Expertise{{ end }} :</span>
+                {{ range $i, $e := . }}{{ if $i }}, {{ end }}<span class="author-box-expertise-item">{{ $e }}</span>{{ end }}
+            </div>
+            {{ end }}
+        </header>
+
+        {{ $articles := where (where site.RegularPages "Section" "blog") "Params.author" $authorId }}
+        {{ if $articles }}
+        <section class="author-articles">
+            <h2 class="section-title">{{ if eq $lang "en" }}Articles by {{ $author.name }}{{ else }}Articles de {{ $author.name }}{{ end }}</h2>
+            <div class="grid-articles">
+                {{ range $articles }}
+                <article class="article-card">
+                    <a href="{{ .RelPermalink }}" class="article-card-image-wrapper" aria-label="{{ .Title }}">
+                        {{ if .Params.image }}
+                        <img src="{{ .Params.image | relURL }}" alt="{{ .Params.imageAlt | default .Title }}" class="article-card-image" loading="lazy">
+                        {{ else }}
+                        <span class="article-card-image article-card-image-placeholder" aria-hidden="true">{{ slicestr .Title 0 1 }}</span>
+                        {{ end }}
+                    </a>
+                    <div class="article-card-body">
+                        <div class="article-meta">
+                            {{ with .Params.categories }}<span class="article-category">{{ index . 0 }}</span>{{ end }}
+                            <time>{{ .Date.Format "2 January 2006" }}</time>
+                        </div>
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        <p>{{ .Description }}</p>
+                    </div>
+                </article>
+                {{ end }}
+            </div>
+        </section>
+        {{ end }}
+        {{ else }}
+        <p>{{ if eq $lang "en" }}Author not found.{{ else }}Auteur introuvable.{{ end }}</p>
+        {{ end }}
+    </div>
+</article>
+{{ end }}

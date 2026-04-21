@@ -1,0 +1,32 @@
+{{ $isEN := eq .Site.Language.Lang "en" }}
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>{{ .Site.Title }}</h4>
+                <p>{{ .Site.Params.description }}</p>
+            </div>
+            <div class="footer-col">
+                <h4>{{ if $isEN }}Categories{{ else }}Catégories{{ end }}</h4>
+                <ul>
+                    {{ range where (where site.Pages "Kind" "term") "Type" "categories" }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>{{ if $isEN }}Information{{ else }}Informations{{ end }}</h4>
+                <nav aria-label="{{ if $isEN }}Footer navigation{{ else }}Navigation pied de page{{ end }}">
+                    <ul>
+                        {{ range .Site.Menus.footer }}
+                        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; {{ now.Year }} {{ .Site.Title }}. {{ if $isEN }}All rights reserved.{{ else }}Tous droits réservés.{{ end }}</p>
+        </div>
+    </div>
+</footer>

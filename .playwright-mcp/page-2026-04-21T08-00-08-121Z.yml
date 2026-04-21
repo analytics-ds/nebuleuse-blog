@@ -1,0 +1,155 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "Aller directement au contenu":
+        - /url: "#"
+        - generic [ref=e8] [cursor=pointer]: Aller directement au contenu
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Accueil Pinterest" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+          - button "Explorer" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]:
+              - generic "Explorer" [ref=e36]
+              - img [ref=e38]
+        - generic [ref=e43]:
+          - combobox "Rechercher" [ref=e45]: minimalist gold jewelry editorial
+          - button "Supprimer la saisie de recherche" [ref=e50] [cursor=pointer]:
+            - img [ref=e53]
+        - generic [ref=e55]:
+          - button "Se connecter" [ref=e57] [cursor=pointer]:
+            - generic [ref=e59]: Se connecter
+          - button "S’inscrire" [ref=e61] [cursor=pointer]:
+            - generic [ref=e63]: S’inscrire
+          - button "Paramètre" [ref=e66] [cursor=pointer]:
+            - img [ref=e69]
+    - main [ref=e72]:
+      - generic [ref=e74]:
+        - generic [ref=e77]:
+          - heading "Rechercher" [level=1] [ref=e79]
+          - button "Afficher les filtres" [ref=e90] [cursor=pointer]:
+            - img [ref=e94]
+        - generic [ref=e99]:
+          - generic [ref=e100]: Afficher plus de résultats de recherche concernant minimalist gold jewelry editorial
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - group "Carte d’Épingle" [ref=e109]:
+                - generic [ref=e111]:
+                  - link "city summer in gold<3 denne subway-turen ble inspo for de nye subway hoopsene og ringen 🚈 Marraine, Marque De Bijoux, Photographie Éditoriale, Marques De Bijoux De Luxe, Photographie De Bijoux, Collier Soleil Et Lune, Photo De Bijoux, Photographie Édito, Moda" [ref=e114] [cursor=pointer]:
+                    - /url: /pin/1266706141983266/
+                    - img "city summer in gold<3 denne subway-turen ble inspo for de nye subway hoopsene og ringen 🚈 Marraine, Marque De Bijoux, Photographie Éditoriale, Marques De Bijoux De Luxe, Photographie De Bijoux, Collier Soleil Et Lune, Photo De Bijoux, Photographie Édito, Moda" [ref=e124]
+                  - generic [ref=e126]:
+                    - generic:
+                      - link "city summer in gold<3 denne subway-turen ble inspo for de nye subway hoopsene og ringen 🚈 Marraine, Marque De Bijoux, Photographie Éditoriale, Marques De Bijoux De Luxe, Photographie De Bijoux, Collier Soleil Et Lune, Photo De Bijoux, Photographie Édito, Moda":
+                        - /url: /pin/1266706141983266/
+                    - generic "Plus d’actions" [ref=e133]:
+                      - button "Plus d’actions" [ref=e134] [cursor=pointer]:
+                        - img [ref=e137]
+            - listitem [ref=e139]:
+              - group "Carte d’Épingle" [ref=e142]:
+                - generic [ref=e144]:
+                  - link "Nature Morte, Beaux Bijoux, Design, Photographie, Photographie Éditoriale, Bijoux Simples, Graphisme, Design Graphique, Bijoux Minimalistes" [ref=e147] [cursor=pointer]:
+                    - /url: /pin/70579919156091498/
+                    - img "Nature Morte, Beaux Bijoux, Design, Photographie, Photographie Éditoriale, Bijoux Simples, Graphisme, Design Graphique, Bijoux Minimalistes" [ref=e157]
+                  - generic [ref=e159]:
+                    - generic:
+                      - link "Nature Morte, Beaux Bijoux, Design, Photographie, Photographie Éditoriale, Bijoux Simples, Graphisme, Design Graphique, Bijoux Minimalistes":
+                        - /url: /pin/70579919156091498/
+                    - generic "Plus d’actions" [ref=e166]:
+                      - button "Plus d’actions" [ref=e167] [cursor=pointer]:
+                        - img [ref=e170]
+            - listitem [ref=e172]:
+              - group "Carte d’Épingle" [ref=e175]:
+                - generic [ref=e177]:
+                  - 'link "Discover more jewelry on our website. These flowing, gold earrings in the spirit of Jil Sander bring elegance to any look. #jewelry #accessories #styleinspo #earrings #minimalstyle #fashionstatement" [ref=e180] [cursor=pointer]':
+                    - /url: /pin/1145814330201815746/
+                    - 'img "Discover more jewelry on our website. These flowing, gold earrings in the spirit of Jil Sander bring elegance to any look. #jewelry #accessories #styleinspo #earrings #minimalstyle #fashionstatement" [ref=e190]'
+                  - generic [ref=e192]:
+                    - generic:
+                      - 'link "Discover more jewelry on our website. These flowing, gold earrings in the spirit of Jil Sander bring elegance to any look. #jewelry #accessories #styleinspo #earrings #minimalstyle #fashionstatement"':
+                        - /url: /pin/1145814330201815746/
+                    - generic "Plus d’actions" [ref=e199]:
+                      - button "Plus d’actions" [ref=e200] [cursor=pointer]:
+                        - img [ref=e203]
+            - listitem [ref=e205]:
+              - group "Carte d’Épingle" [ref=e208]:
+                - generic [ref=e210]:
+                  - link "a woman laying on the ground with her hands spread out and wearing gold bracelets" [ref=e213] [cursor=pointer]:
+                    - /url: /pin/682365781083484380/
+                    - img "a woman laying on the ground with her hands spread out and wearing gold bracelets" [ref=e223]
+                  - generic [ref=e225]:
+                    - generic:
+                      - link "a woman laying on the ground with her hands spread out and wearing gold bracelets":
+                        - /url: /pin/682365781083484380/
+                    - generic "Plus d’actions" [ref=e232]:
+                      - button "Plus d’actions" [ref=e233] [cursor=pointer]:
+                        - img [ref=e236]
+            - listitem [ref=e238]:
+              - group "Carte d’Épingle" [ref=e241]:
+                - generic [ref=e243]:
+                  - link "a person's hand under the water with two gold rings on their wrist and bracelet" [ref=e246] [cursor=pointer]:
+                    - /url: /pin/1005710160544722553/
+                    - img "a person's hand under the water with two gold rings on their wrist and bracelet" [ref=e256]
+                  - generic [ref=e258]:
+                    - generic:
+                      - link "a person's hand under the water with two gold rings on their wrist and bracelet":
+                        - /url: /pin/1005710160544722553/
+                    - generic "Plus d’actions" [ref=e265]:
+                      - button "Plus d’actions" [ref=e266] [cursor=pointer]:
+                        - img [ref=e269]
+            - listitem [ref=e271]:
+              - group "Carte d’Épingle" [ref=e274]:
+                - generic [ref=e276]:
+                  - link "the shadow of a person's hand on a white wall with a gold chain" [ref=e279] [cursor=pointer]:
+                    - /url: /pin/831054937519706248/
+                    - img "the shadow of a person's hand on a white wall with a gold chain" [ref=e289]
+                  - generic [ref=e291]:
+                    - generic:
+                      - link "the shadow of a person's hand on a white wall with a gold chain":
+                        - /url: /pin/831054937519706248/
+                    - generic "Plus d’actions" [ref=e298]:
+                      - button "Plus d’actions" [ref=e299] [cursor=pointer]:
+                        - img [ref=e302]
+            - listitem [ref=e304]:
+              - group "Carte d’Épingle" [ref=e307]:
+                - generic [ref=e309]:
+                  - 'link "Dress up your look with modern pearl jewellery that’s equal parts bold and refined. #ThomasSabo #PearlJewellery #StatementStyle #LuxuryLooks Shooting Bijoux Femme, Photo Bijoux, Photographie De Bijoux, Idées De Photographie, Nature Morte, Accessoires Femme, Bijoux Femme, Photographie, Accessoires" [ref=e312] [cursor=pointer]':
+                    - /url: /pin/502784745920513434/
+                    - 'img "Dress up your look with modern pearl jewellery that’s equal parts bold and refined. #ThomasSabo #PearlJewellery #StatementStyle #LuxuryLooks Shooting Bijoux Femme, Photo Bijoux, Photographie De Bijoux, Idées De Photographie, Nature Morte, Accessoires Femme, Bijoux Femme, Photographie, Accessoires" [ref=e322]'
+                  - generic [ref=e324]:
+                    - generic:
+                      - 'link "Dress up your look with modern pearl jewellery that’s equal parts bold and refined. #ThomasSabo #PearlJewellery #StatementStyle #LuxuryLooks Shooting Bijoux Femme, Photo Bijoux, Photographie De Bijoux, Idées De Photographie, Nature Morte, Accessoires Femme, Bijoux Femme, Photographie, Accessoires"':
+                        - /url: /pin/502784745920513434/
+                    - generic "Plus d’actions" [ref=e331]:
+                      - button "Plus d’actions" [ref=e332] [cursor=pointer]:
+                        - img [ref=e335]
+            - listitem [ref=e337]:
+              - group "Carte d’Épingle" [ref=e340]:
+                - generic [ref=e342]:
+                  - link "“Elevate your everyday student look with tiny gold hoop earrings and delicate layered necklaces. Perfect for a chic, minimalist vibe with pastel blazers or casual outfits. Effortless style that highlights accessories without showing your face.” Accessoires, Bijoux Précieux, Bijoux Modernes, Clous D'oreille, Boucles D'oreilles À Clous, Bijoux Minimalistes, Esthétique Des Bijoux En Or, Bijoux En Or, Générer Des Idées" [ref=e345] [cursor=pointer]:
+                    - /url: /pin/1118722363705653639/
+                    - img "“Elevate your everyday student look with tiny gold hoop earrings and delicate layered necklaces. Perfect for a chic, minimalist vibe with pastel blazers or casual outfits. Effortless style that highlights accessories without showing your face.” Accessoires, Bijoux Précieux, Bijoux Modernes, Clous D'oreille, Boucles D'oreilles À Clous, Bijoux Minimalistes, Esthétique Des Bijoux En Or, Bijoux En Or, Générer Des Idées" [ref=e355]
+                  - generic [ref=e357]:
+                    - generic:
+                      - link "“Elevate your everyday student look with tiny gold hoop earrings and delicate layered necklaces. Perfect for a chic, minimalist vibe with pastel blazers or casual outfits. Effortless style that highlights accessories without showing your face.” Accessoires, Bijoux Précieux, Bijoux Modernes, Clous D'oreille, Boucles D'oreilles À Clous, Bijoux Minimalistes, Esthétique Des Bijoux En Or, Bijoux En Or, Générer Des Idées":
+                        - /url: /pin/1118722363705653639/
+                    - generic "Plus d’actions" [ref=e364]:
+                      - button "Plus d’actions" [ref=e365] [cursor=pointer]:
+                        - img [ref=e368]
+  - dialog [ref=e370]:
+    - generic [ref=e375]:
+      - generic [ref=e377]: Accepter l’utilisation de cookies ?
+      - generic [ref=e379]:
+        - text: Nous utilisons les cookies pour diffuser des annonces et des expériences personnalisées, ainsi que pour analyser le trafic sur notre site. Lisez notre
+        - link "politique d’usage des cookies" [ref=e381] [cursor=pointer]:
+          - /url: https://www.pinterest.com/_/_/policy/cookies/
+        - text: pour plus d’informations.
+      - generic [ref=e383]:
+        - button "Tout refuser" [ref=e385] [cursor=pointer]:
+          - generic [ref=e387]: Tout refuser
+        - generic [ref=e389]:
+          - button "Laissez-moi choisir" [ref=e391] [cursor=pointer]:
+            - generic [ref=e393]: Laissez-moi choisir
+          - button "Tout accepter" [ref=e395] [cursor=pointer]:
+            - generic [ref=e397]: Tout accepter

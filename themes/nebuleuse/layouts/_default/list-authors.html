@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+{{ $base := cond (eq $lang "en") "/en/authors/" "/auteurs/" }}
+
+<section class="authors-listing">
+    <div class="container">
+        <header class="list-header">
+            <h1>{{ .Title }}</h1>
+            {{ with .Description }}<p class="list-description">{{ . }}</p>{{ end }}
+        </header>
+
+        <div class="authors-grid">
+            {{ range $id, $author := site.Data.authors }}
+            <a href="{{ printf "%s%s/" $base $id | relURL }}" class="author-card">
+                {{ with $author.avatar }}
+                <img src="{{ . | relURL }}" alt="{{ $author.name }}" class="author-card-avatar" width="200" height="200" loading="lazy">
+                {{ else }}
+                <div class="author-card-avatar author-avatar-placeholder" aria-hidden="true">{{ slicestr $author.name 0 1 }}</div>
+                {{ end }}
+                <h2 class="author-card-name">{{ $author.name }}</h2>
+                {{ with index $author.role $lang }}
+                <p class="author-card-role">{{ . }}</p>
+                {{ end }}
+                {{ with index $author.bio $lang }}
+                <p class="author-card-bio">{{ . | truncate 140 }}</p>
+                {{ end }}
+                <span class="author-card-cta">{{ if eq $lang "en" }}Read profile &rarr;{{ else }}Voir le profil &rarr;{{ end }}</span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

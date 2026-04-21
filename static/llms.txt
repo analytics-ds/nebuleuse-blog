@@ -1,0 +1,21 @@
+# Nebuleuse Blog
+
+> Le blog de Nebuleuse : piercings, boucles d'oreilles, bijoux de corps et actualites bijoux pour femmes.
+
+## A propos
+
+Nebuleuse Blog est le magazine editorial de la marque Nebuleuse Bijoux. Le blog propose guides, comparatifs et actualites sur l'univers des bijoux pour femmes, avec un focus particulier sur les piercings, les boucles d'oreilles et les bijoux de corps.
+
+## Contenu principal
+
+- Piercings : guides, types, cicatrisation, entretien
+- Boucles d'oreilles : tendances, creoles, ear cuffs, layering
+- Bijoux de corps : chaines de taille, bracelets de cheville, bijoux de dos
+- Actualites : nouveautes, marques, materiaux, evenements
+
+## Informations techniques
+
+- Generateur : Hugo
+- Hebergement : GitHub Pages
+- Sitemap : https://example.org/sitemap.xml
+- RSS : https://example.org/index.xml

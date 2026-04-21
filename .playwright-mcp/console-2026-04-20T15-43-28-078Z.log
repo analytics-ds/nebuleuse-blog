@@ -1,0 +1,18 @@
+[    1131ms] [LOG] Not ultimate @ https://nebuleusebijoux.com/:1617
+[    1132ms] [LOG] [GORGIAS-CHAT] Loading chat 01GYCCSX53KE3JKH1D5A50YB8R... @ https://config.gorgias.chat/bundle-loader/shopify/madame-indecise.myshopify.com:0
+[    1141ms] [LOG] [baback] loading 26755694640 @ https://cdn.shopify.com/extensions/019daa9d-3de8-758a-ac3c-bc12620b1002/baback-42/assets/app.js:3
+[    2058ms] [INFO] %c[smsbump web pixel]  color:cyan pixel script loaded @ https://nebuleusebijoux.com/web-pixels/strict/app/web-pixel-34799964@281adb97b4f6f92355e784671c2fdee2.js:0
+[    3053ms] [INFO] k-web-pixel-version 1 @ https://nebuleusebijoux.com/web-pixels/strict/app/web-pixel-2459959679@524f6c1ee37bacdca7657a665bdca589.js:0
+[    3058ms] [INFO] %c[smsbump web pixel]  color:cyan version:  281adb97b4f6f92355e784671c2fdee2 @ https://nebuleusebijoux.com/web-pixels/strict/app/web-pixel-34799964@281adb97b4f6f92355e784671c2fdee2.js:0
+[    3228ms] [LOG] Checking Booking Data {id: sh-ab8fa5ac-93A2-4CA1-A24C-98E37D30C2B2, name: page_viewed, data: Object, type: standard, timestamp: 2026-04-20T15:43:29.689Z} @ https://nebuleusebijoux.com/web-pixels/strict/app/web-pixel-1573126527@363f6a33e52d88c41df81d232f6396cb.js:0
+[    3230ms] [LOG] [229d2][Webyn] Event #1 for session a26b0aa4-4725-40fc-beb9-38d034e74094: Shopify::page_viewed @ https://nebuleusebijoux.com/web-pixels/strict/app/web-pixel-2375156095@14b2acc47e595c00270a3a989ec6423c.js:0
+[    3533ms] [LOG] LIQUID - consentmoSignal_onLoad event {isActive: 1, consent: Object} @ https://nebuleusebijoux.com/:576
+[    3533ms] [LOG] LIQUID - set default-consent and subscribe consentmoSignal for consent-update @ https://nebuleusebijoux.com/:593
+[    3708ms] [LOG] LIQUID - consentmoSignal event {status: decline, initialConsent: 1, isConsentProvided: 0, salesOfData: true, outOfRegion: 0} @ https://nebuleusebijoux.com/:597
+[    3708ms] [LOG] LIQUID - dataLayer [Arguments(3), Arguments(3), Arguments(2), Arguments(3), Arguments(3), Arguments(3), Arguments(2), Arguments(3), Arguments(3), Arguments(3), Object, Object, Object, Object] @ https://nebuleusebijoux.com/:598
+[    3709ms] [LOG] blocked klaviyo @ https://nebuleusebijoux.com/:616
+[    4529ms] [WARNING] [GORGIAS-CHAT] Another chat was detected. Check that you did not add Gorgias chat snippet twice. {chatSkipped: Object} @ https://config.gorgias.chat/bundle-loader/01GYCCSX53KE3JKH1D5A50YB8R?source=shopify1click&shop=madame-indecise.myshopify.com:0
+[    4529ms] [WARNING] [GORGIAS-CHAT] Another chat was detected. Check that you did not add Gorgias chat snippet twice. {chatSkipped: Object} @ https://config.gorgias.chat/bundle-loader/01GYCCSX53KE3JKH1D5A50YB8R?source=shopify1click&shop=madame-indecise.myshopify.com:0
+[    4529ms] [LOG] [baback] loading 26755694640 @ https://cdn.shopify.com/proxy/515f9f6563a29931c9ebc09255f1f162ddd0c01309aa0a1203dc0fcc032fbe09/web.baback.co/internal/v2/shopify-embed?shop=madame-indecise.myshopify.com&sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA:7
+[    4783ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://wisepops.net/loader.js?website_id=6O2m&shop=madame-indecise.myshopify.com:0
+[   33136ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://assets.gorgias.chat/build/static/js/848.4fa0f014de17ea32.js:741

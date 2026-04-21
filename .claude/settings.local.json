@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_close",
+      "Bash(cp .claude/templates/layouts/baseof.html themes/nebuleuse/layouts/_default/baseof.html)",
+      "Bash(cp .claude/templates/layouts/home.html themes/nebuleuse/layouts/_default/home.html)",
+      "Bash(cp .claude/templates/layouts/list.html themes/nebuleuse/layouts/_default/list.html)",
+      "Bash(cp .claude/templates/layouts/single.html themes/nebuleuse/layouts/_default/single.html)",
+      "Bash(cp .claude/templates/layouts/sitemap-html.html themes/nebuleuse/layouts/_default/sitemap-html.html)",
+      "Bash(mkdir -p .github/workflows)",
+      "Bash(cp .claude/templates/hugo-workflow.yml .github/workflows/hugo.yml)",
+      "Bash(cat)"
+    ]
+  }
+}

@@ -1,0 +1,809 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - text: ✓
+      - alertdialog "Votre place au premier rang" [ref=e3]:
+        - document [ref=e5]:
+          - button "Close banner" [ref=e6] [cursor=pointer]: Continuer sans accepter
+          - generic [ref=e8]:
+            - heading "Votre place au premier rang" [level=2] [ref=e10]
+            - generic [ref=e12]:
+              - text: "Dans le domaine de la mode, le \"sur mesure\" est toujours le meilleur choix. C'est pourquoi Vogue met au service la technologie afin d'adapter ses articles à vos centres d'intérêt et vous tenir au courant de tout: des dernières tendances de la semaine de la mode à Paris au dernier It-bag dans lequel investir. Cette technologie permet également à des tiers (et en particulier à nos partenaires publicitaires sélectionnés dans le secteur du luxe) de vous présenter des campagnes et des contenus publicitaires personnalisés, tout en donnant aux créateurs de contenu la possibilité de découvrir les types d'articles que vous aimez et d'écrire sur ces sujets. Considérez que c'est votre chance d'être à l'avant-garde - et d'avoir le dernier mot - sur tout le contenu de Vogue. Nous et nos partenaires"
+              - button "228" [ref=e13] [cursor=pointer]
+              - generic [ref=e14]:
+                - text: utilisons des cookies et des méthodes similaires pour reconnaître les visiteurs et mémoriser leurs préférences. Nous pouvons également utiliser ces technologies pour évaluer l'efficacité des campagnes publicitaires, cibler les publicités et analyser le trafic du site web. Certaines de ces technologies sont essentielles au bon fonctionnement du service ou du site web et ne peuvent pas être désactivées, tandis que d'autres sont facultatives mais servent à améliorer l'expérience utilisateur de diverses manières.
+                - link "Politique de Confidentialite" [ref=e15] [cursor=pointer]:
+                  - /url: https://www.vogue.fr/info/politique-de-confidentialite
+                - text: En collaboration avec nos partenaires, nous stockons et/ou accédons à des informations sur votre appareil et traitons vos données personnelles, telles que vos données de navigation et les identifiants de votre appareil, à des fins de personnalisation de la publicité et du contenu, de mesure de la performance publicitaire et du contenu, d'études d'audience et de développement de services, notamment grâce à l'utilisation de données de géolocalisation précises et à l'identification par analyse active de votre appareil. Vous pouvez retirer votre consentement ou gérer vos préférences à tout moment en sélectionnant l'option « Vos choix en matière de confidentialité » située en bas de page du site web ou dans la section « Confidentialité et conditions d'utilisation » des paramètres de votre application. Pour consulter ou vous opposer à l'utilisation de vos données par nos partenaires lorsque ceux-ci font valoir un intérêt légitime, veuillez consulter la page de nos fournisseurs. Vos préférences s'appliqueront uniquement à ce site web.
+          - generic [ref=e16]:
+            - generic [ref=e17]:
+              - button "GÉRER MES COOKIES" [ref=e18] [cursor=pointer]:
+                - generic [ref=e19]: GÉRER MES COOKIES
+              - button "ACCEPTER" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]: ACCEPTER
+            - generic [ref=e22]:
+              - generic [ref=e23]:
+                - menu:
+                  - menuitemradio "English" [ref=e24] [cursor=pointer]
+                  - menuitemradio "French" [checked] [ref=e25] [cursor=pointer]: ✓ Français
+                - button "Select language, current language is fr" [ref=e26] [cursor=pointer]:
+                  - img [ref=e27]
+                  - text: fr
+                  - img [ref=e29]
+              - link "Politique de confidentialité" [ref=e32] [cursor=pointer]:
+                - /url: https://www.vogue.fr/index/article/politique-de-confidentialite
+      - status [ref=e33]
+  - generic [ref=e36]:
+    - link "Skip to main content" [ref=e37] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic:
+      - complementary
+    - banner [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - button "Open Navigation Menu Menu" [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]: Open Navigation Menu
+            - img "Menu" [ref=e46]
+          - link "Vogue France" [ref=e49] [cursor=pointer]:
+            - /url: /
+            - img "Vogue France" [ref=e51]
+          - generic [ref=e52]:
+            - navigation "Utility":
+              - list
+            - link "Opens in a new window" [ref=e56] [cursor=pointer]:
+              - /url: https://abonnement.condenast.fr/site/condenast/VOGUE/fr/kiosque/titre.html?utm_source=Vogue&utm_medium=Header&utm_campaign=Header
+              - text: Abonnement
+            - link "Profile Se Connecter" [ref=e58] [cursor=pointer]:
+              - /url: /auth/initiate?redirectURL=%2F&source=VERSO_NAVIGATION
+              - generic [ref=e60]:
+                - img "Profile" [ref=e62]
+                - generic [ref=e63]: Se Connecter
+            - link "Rechercher Search" [ref=e64] [cursor=pointer]:
+              - /url: /search
+              - generic [ref=e65]: Rechercher
+              - img "Search" [ref=e67]
+        - navigation "Primary" [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Mode" [ref=e73] [cursor=pointer]:
+                - /url: /mode
+            - listitem [ref=e74]:
+              - link "Beauté" [ref=e75] [cursor=pointer]:
+                - /url: /beaute
+            - listitem [ref=e76]:
+              - link "Lifestyle" [ref=e77] [cursor=pointer]:
+                - /url: /lifestyle
+            - listitem [ref=e78]:
+              - link "Culture" [ref=e79] [cursor=pointer]:
+                - /url: /culture
+            - listitem [ref=e80]:
+              - link "Défilés" [ref=e81] [cursor=pointer]:
+                - /url: https://www.vogue.com/fashion-shows?utm_source=vogue.fr&utm_medium=internal
+            - listitem [ref=e82]:
+              - link "Video" [ref=e83] [cursor=pointer]:
+                - /url: /video
+            - listitem [ref=e84]:
+              - link "Shopping" [ref=e85] [cursor=pointer]:
+                - /url: /shopping
+            - listitem [ref=e86]:
+              - link "Met Gala" [ref=e87] [cursor=pointer]:
+                - /url: https://www.vogue.fr/dossier/met-gala
+    - generic:
+      - complementary
+    - main [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e95]:
+          - link [ref=e96] [cursor=pointer]:
+            - /url: https://abonnement.condenast.fr/site/condenast/VOGUE/fr/kiosque/titre.html?utm_source=subs&utm_medium=banniere&utm_campaign=subs-banniere-site-edito&utm_brand=vogue-france
+          - generic [ref=e101]:
+            - generic [ref=e102]: "Vogue France : profitez d'une offre d'abonnement exceptionnelle"
+            - link "Abonnez-vous !" [ref=e103] [cursor=pointer]:
+              - /url: https://abonnement.condenast.fr/site/condenast/VOGUE/fr/kiosque/titre.html?utm_source=subs&utm_medium=banniere&utm_campaign=subs-banniere-site-edito&utm_brand=vogue-france
+              - generic [ref=e104]: Abonnez-vous !
+        - generic [ref=e106]:
+          - heading "À la Une" [level=2] [ref=e109]
+          - button "Les 10 meilleurs films à voir au printemps Cinéma Les 10 meilleurs films à voir au printemps Par Manon Garrigues et Marthe Mabille 20 avril 2026" [ref=e110] [cursor=pointer]:
+            - img "Les 10 meilleurs films à voir au printemps" [ref=e115]
+            - generic [ref=e116]:
+              - generic [ref=e121]: Cinéma
+              - link "Les 10 meilleurs films à voir au printemps" [ref=e122]:
+                - /url: /article/meilleurs-films-printemps-a-voir
+                - heading "Les 10 meilleurs films à voir au printemps" [level=3] [ref=e123]
+              - generic [ref=e124]:
+                - generic [ref=e129]:
+                  - generic [ref=e130]: Par Manon Garrigues
+                  - text: et
+                  - generic [ref=e131]: Marthe Mabille
+                - time [ref=e132]: 20 avril 2026
+        - generic [ref=e137]:
+          - generic [ref=e138]: Chaque jour, vivez au rythme de l’actualité mode, beauté et lifestyle du moment
+          - link "Inscrivez-vous à la newsletter" [ref=e139] [cursor=pointer]:
+            - /url: https://newsletter.vogue.fr/
+            - generic [ref=e140]: Inscrivez-vous à la newsletter
+        - generic [ref=e145]:
+          - heading "Les dernières actualités" [level=2] [ref=e147]
+          - generic [ref=e148]:
+            - button "Grâce à Sabrina Carpenter, je n'ai plus peur de vieillir musique Grâce à Sabrina Carpenter, je n'ai plus peur de vieillir Par Lolita Mang 20 avril 2026" [ref=e149] [cursor=pointer]:
+              - img "Grâce à Sabrina Carpenter, je n'ai plus peur de vieillir" [ref=e156]
+              - generic [ref=e157]:
+                - generic [ref=e162]: musique
+                - link "Grâce à Sabrina Carpenter, je n'ai plus peur de vieillir" [ref=e163]:
+                  - /url: /article/sabrina-carpenter-vieillir-madonna-dolly-parton
+                  - heading "Grâce à Sabrina Carpenter, je n'ai plus peur de vieillir" [level=3] [ref=e164]
+                - generic [ref=e165]:
+                  - generic [ref=e171]: Par Lolita Mang
+                  - time [ref=e172]: 20 avril 2026
+            - button "Qui a créé le look spectaculaire de Lisa de BLACKPINK à Coachella ? Mode Qui a créé le look spectaculaire de Lisa de BLACKPINK à Coachella ? Par Elise Fabre 20 avril 2026" [ref=e173] [cursor=pointer]:
+              - img "Qui a créé le look spectaculaire de Lisa de BLACKPINK à Coachella ?" [ref=e180]
+              - generic [ref=e181]:
+                - generic [ref=e186]: Mode
+                - link "Qui a créé le look spectaculaire de Lisa de BLACKPINK à Coachella ?" [ref=e187]:
+                  - /url: /article/look-lisa-blackpink-coachella-2026-iris-van-herpen
+                  - heading "Qui a créé le look spectaculaire de Lisa de BLACKPINK à Coachella ?" [level=3] [ref=e188]
+                - generic [ref=e189]:
+                  - generic [ref=e195]: Par Elise Fabre
+                  - time [ref=e196]: 20 avril 2026
+            - 'button "H&M x Stella McCartney : toutes les pièces à s''offrir bientôt de la collaboration star du printemps 2026 mode H&M x Stella McCartney : toutes les pièces à s''offrir bientôt de la collaboration star du printemps 2026 Par Marie Courtois 20 avril 2026" [ref=e197] [cursor=pointer]':
+              - 'img "H&M x Stella McCartney : toutes les pièces à s''offrir bientôt de la collaboration star du printemps 2026" [ref=e204]'
+              - generic [ref=e205]:
+                - generic [ref=e210]: mode
+                - 'link "H&M x Stella McCartney : toutes les pièces à s''offrir bientôt de la collaboration star du printemps 2026" [ref=e211]':
+                  - /url: /article/hm-stella-mccartney-collaboration-2026
+                  - 'heading "H&M x Stella McCartney : toutes les pièces à s''offrir bientôt de la collaboration star du printemps 2026" [level=3] [ref=e212]'
+                - generic [ref=e213]:
+                  - generic [ref=e219]: Par Marie Courtois
+                  - time [ref=e220]: 20 avril 2026
+            - button "Où regarder la retransmission en direct du Met Gala 2026 ? mode Où regarder la retransmission en direct du Met Gala 2026 ? Par Emma Specter 20 avril 2026" [ref=e221] [cursor=pointer]:
+              - img "Où regarder la retransmission en direct du Met Gala 2026 ?" [ref=e228]
+              - generic [ref=e229]:
+                - generic [ref=e234]: mode
+                - link "Où regarder la retransmission en direct du Met Gala 2026 ?" [ref=e235]:
+                  - /url: /article/regarder-retransmission-direct-met-gala-2026
+                  - heading "Où regarder la retransmission en direct du Met Gala 2026 ?" [level=3] [ref=e236]
+                - generic [ref=e237]:
+                  - generic [ref=e243]: Par Emma Specter
+                  - time [ref=e244]: 20 avril 2026
+        - generic [ref=e250]:
+          - link [ref=e251] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id289380413?pt=45076&ct=VOG_EDT_FR_TICKER&mt=8
+          - generic [ref=e256]:
+            - generic [ref=e257]: Vivez les défilés comme si vous y étiez sur la Vogue App
+            - link "À télécharger ici" [ref=e258] [cursor=pointer]:
+              - /url: https://apps.apple.com/app/apple-store/id289380413?pt=45076&ct=VOG_EDT_FR_TICKER&mt=8
+              - generic [ref=e259]: À télécharger ici
+        - generic [ref=e261]:
+          - heading "Mode" [level=2] [ref=e264]
+          - generic [ref=e266]:
+            - link "Vogue France célèbre la haute couture dans le numéro de mai 2026 Magazine Vogue France célèbre la haute couture dans le numéro de mai 2026 Par Claire Thomson-Jonville 20 avril 2026" [ref=e269] [cursor=pointer]:
+              - /url: /article/cover-vogue-france-numero-mai-2026
+              - img "Vogue France célèbre la haute couture dans le numéro de mai 2026" [ref=e272]
+              - generic [ref=e275]:
+                - generic [ref=e278]: Magazine
+                - heading "Vogue France célèbre la haute couture dans le numéro de mai 2026" [level=2] [ref=e279]
+                - generic [ref=e283]: Par Claire Thomson-Jonville
+                - time [ref=e284]: 20 avril 2026
+            - generic [ref=e288]:
+              - generic [ref=e290]:
+                - button "Les 13 tendances mode homme du printemps-été 2026 icon Gallery Mode Les 13 tendances mode homme du printemps-été 2026 Par Alexandre Marain 15 avril 2026" [ref=e291] [cursor=pointer]:
+                  - generic [ref=e293]:
+                    - generic [ref=e297]:
+                      - img "Les 13 tendances mode homme du printemps-été 2026"
+                    - generic [ref=e298]:
+                      - generic [ref=e299]: icon
+                      - img "Gallery" [ref=e301]
+                  - generic [ref=e303]:
+                    - generic [ref=e308]: Mode
+                    - link "Les 13 tendances mode homme du printemps-été 2026" [ref=e309]:
+                      - /url: /galerie/tendances-mode-homme-printemps-ete-2026
+                      - heading "Les 13 tendances mode homme du printemps-été 2026" [level=3] [ref=e310]
+                    - generic [ref=e311]:
+                      - generic [ref=e317]: Par Alexandre Marain
+                      - time [ref=e318]: 15 avril 2026
+                - button "“J'ai toujours refusé de compromettre mes valeurs”, Stella McCartney sur sa nouvelle collaboration avec H&M mode “J'ai toujours refusé de compromettre mes valeurs”, Stella McCartney sur sa nouvelle collaboration avec H&M Par Héloïse Salessy 16 avril 2026" [ref=e319] [cursor=pointer]:
+                  - generic [ref=e325]:
+                    - img "“J'ai toujours refusé de compromettre mes valeurs”, Stella McCartney sur sa nouvelle collaboration avec H&M"
+                  - generic [ref=e326]:
+                    - generic [ref=e331]: mode
+                    - link "“J'ai toujours refusé de compromettre mes valeurs”, Stella McCartney sur sa nouvelle collaboration avec H&M" [ref=e332]:
+                      - /url: /article/stella-mccartney-h-and-m
+                      - heading "“J'ai toujours refusé de compromettre mes valeurs”, Stella McCartney sur sa nouvelle collaboration avec H&M" [level=3] [ref=e333]
+                    - generic [ref=e334]:
+                      - generic [ref=e340]: Par Héloïse Salessy
+                      - time [ref=e341]: 16 avril 2026
+                - button "La seule robe dans laquelle investir cet été est aussi la plus simple à porter Mode La seule robe dans laquelle investir cet été est aussi la plus simple à porter Par Alexandre Marain 20 avril 2026" [ref=e342] [cursor=pointer]:
+                  - generic [ref=e348]:
+                    - img "La seule robe dans laquelle investir cet été est aussi la plus simple à porter"
+                  - generic [ref=e349]:
+                    - generic [ref=e354]: Mode
+                    - link "La seule robe dans laquelle investir cet été est aussi la plus simple à porter" [ref=e355]:
+                      - /url: /article/robe-trois-trous-tendance-mode-ete
+                      - heading "La seule robe dans laquelle investir cet été est aussi la plus simple à porter" [level=3] [ref=e356]
+                    - generic [ref=e357]:
+                      - generic [ref=e363]: Par Alexandre Marain
+                      - time [ref=e364]: 20 avril 2026
+              - generic [ref=e366]:
+                - button "5 maillots de bain des années 1990 qui reviennent à la mode en 2026 Mode 5 maillots de bain des années 1990 qui reviennent à la mode en 2026 Par Alexandre Marain 20 avril 2026" [ref=e367] [cursor=pointer]:
+                  - generic [ref=e373]:
+                    - img "5 maillots de bain des années 1990 qui reviennent à la mode en 2026"
+                  - generic [ref=e374]:
+                    - generic [ref=e379]: Mode
+                    - link "5 maillots de bain des années 1990 qui reviennent à la mode en 2026" [ref=e380]:
+                      - /url: /article/maillots-bain-annees-1990-ete-2026
+                      - heading "5 maillots de bain des années 1990 qui reviennent à la mode en 2026" [level=3] [ref=e381]
+                    - generic [ref=e382]:
+                      - generic [ref=e388]: Par Alexandre Marain
+                      - time [ref=e389]: 20 avril 2026
+                - button "Les It girls de Los Angeles adorent le yoga… mais le pratiquent-elles vraiment ? Mode Les It girls de Los Angeles adorent le yoga… mais le pratiquent-elles vraiment ? Par Alexandre Marain 14 avril 2026" [ref=e390] [cursor=pointer]:
+                  - generic [ref=e396]:
+                    - img "Les It girls de Los Angeles adorent le yoga… mais le pratiquent-elles vraiment ?"
+                  - generic [ref=e397]:
+                    - generic [ref=e402]: Mode
+                    - link "Les It girls de Los Angeles adorent le yoga… mais le pratiquent-elles vraiment ?" [ref=e403]:
+                      - /url: /article/tendance-yoga-los-angeles-phenomene-mode
+                      - heading "Les It girls de Los Angeles adorent le yoga… mais le pratiquent-elles vraiment ?" [level=3] [ref=e404]
+                    - generic [ref=e405]:
+                      - generic [ref=e411]: Par Alexandre Marain
+                      - time [ref=e412]: 14 avril 2026
+        - generic [ref=e419]:
+          - heading "Lifestyle" [level=2] [ref=e421]
+          - generic [ref=e422]:
+            - 'button "Salone del Mobile à Milan : tout ce qu''il faut savoir de cette édition 2026 Design Salone del Mobile à Milan : tout ce qu''il faut savoir de cette édition 2026 Par Julie Le Minor 20 avril 2026" [ref=e423] [cursor=pointer]':
+              - generic [ref=e429]:
+                - 'img "Salone del Mobile à Milan : tout ce qu''il faut savoir de cette édition 2026"'
+              - generic [ref=e430]:
+                - generic [ref=e435]: Design
+                - 'link "Salone del Mobile à Milan : tout ce qu''il faut savoir de cette édition 2026" [ref=e436]':
+                  - /url: /article/guide-salone-del-mobile-2026-milan
+                  - 'heading "Salone del Mobile à Milan : tout ce qu''il faut savoir de cette édition 2026" [level=3] [ref=e437]'
+                - generic [ref=e438]:
+                  - generic [ref=e444]: Par Julie Le Minor
+                  - time [ref=e445]: 20 avril 2026
+            - button "L’expérience déroutante de revoir Le Journal de Bridget Jones quand on a l’âge de l’héroïne cinéma L’expérience déroutante de revoir Le Journal de Bridget Jones quand on a l’âge de l’héroïne Par Daisy Jones 20 avril 2026" [ref=e446] [cursor=pointer]:
+              - generic [ref=e452]:
+                - img "L’expérience déroutante de revoir Le Journal de Bridget Jones quand on a l’âge de l’héroïne"
+              - generic [ref=e453]:
+                - generic [ref=e458]: cinéma
+                - link "L’expérience déroutante de revoir Le Journal de Bridget Jones quand on a l’âge de l’héroïne" [ref=e459]:
+                  - /url: /article/revoir-journal-de-bridget-jones-a-30-ans
+                  - heading "L’expérience déroutante de revoir Le Journal de Bridget Jones quand on a l’âge de l’héroïne" [level=3] [ref=e460]:
+                    - text: L’expérience déroutante de revoir
+                    - emphasis [ref=e461]: Le Journal de Bridget Jones
+                    - text: quand on a l’âge de l’héroïne
+                - generic [ref=e462]:
+                  - generic [ref=e468]: Par Daisy Jones
+                  - time [ref=e469]: 20 avril 2026
+            - button "Coachella n'est pas juste un festival de musique, c'est aussi un musée d'art à ciel ouvert Art contemporain Coachella n'est pas juste un festival de musique, c'est aussi un musée d'art à ciel ouvert Par Alexandre Marain 18 avril 2026" [ref=e470] [cursor=pointer]:
+              - generic [ref=e476]:
+                - img "Coachella n'est pas juste un festival de musique, c'est aussi un musée d'art à ciel ouvert"
+              - generic [ref=e477]:
+                - generic [ref=e482]: Art contemporain
+                - link "Coachella n'est pas juste un festival de musique, c'est aussi un musée d'art à ciel ouvert" [ref=e483]:
+                  - /url: /article/coachella-festival-musee-art-installations-2026
+                  - heading "Coachella n'est pas juste un festival de musique, c'est aussi un musée d'art à ciel ouvert" [level=3] [ref=e484]
+                - generic [ref=e485]:
+                  - generic [ref=e491]: Par Alexandre Marain
+                  - time [ref=e492]: 18 avril 2026
+            - button "15 lieux somptueux à (re)découvrir à Palm Springs pendant Coachella Voyage 15 lieux somptueux à (re)découvrir à Palm Springs pendant Coachella Par Jessica Scemama 17 avril 2026" [ref=e493] [cursor=pointer]:
+              - generic [ref=e499]:
+                - img "15 lieux somptueux à (re)découvrir à Palm Springs pendant Coachella"
+              - generic [ref=e500]:
+                - generic [ref=e505]: Voyage
+                - link "15 lieux somptueux à (re)découvrir à Palm Springs pendant Coachella" [ref=e506]:
+                  - /url: /article/palm-spring-guide
+                  - heading "15 lieux somptueux à (re)découvrir à Palm Springs pendant Coachella" [level=3] [ref=e507]
+                - generic [ref=e508]:
+                  - generic [ref=e514]: Par Jessica Scemama
+                  - time [ref=e515]: 17 avril 2026
+        - generic [ref=e517]:
+          - heading "Beauté" [level=2] [ref=e520]
+          - generic [ref=e522]:
+            - link "Peptides, exosomes, PDRN… Quels sont les ingrédients stars de la beauté régénérative ? beauté Peptides, exosomes, PDRN… Quels sont les ingrédients stars de la beauté régénérative ? Par Audrey Noble 16 avril 2026" [ref=e525] [cursor=pointer]:
+              - /url: /article/peptides-exosomes-pdrn
+              - generic [ref=e527]:
+                - img "Peptides, exosomes, PDRN… Quels sont les ingrédients stars de la beauté régénérative ?"
+              - generic [ref=e530]:
+                - generic [ref=e533]: beauté
+                - heading "Peptides, exosomes, PDRN… Quels sont les ingrédients stars de la beauté régénérative ?" [level=2] [ref=e534]
+                - generic [ref=e538]: Par Audrey Noble
+                - time [ref=e539]: 16 avril 2026
+            - generic [ref=e543]:
+              - generic [ref=e545]:
+                - 'button "Fitness : qu’est-ce que le rucking, l’exercice qui favorise l''endurance et corrige la posture ? Beauté Fitness : qu’est-ce que le rucking, l’exercice qui favorise l''endurance et corrige la posture ? Par Alexandra Lores 17 avril 2026" [ref=e546] [cursor=pointer]':
+                  - generic [ref=e552]:
+                    - 'img "Fitness : qu’est-ce que le rucking, l’exercice qui favorise l''endurance et corrige la posture ?"'
+                  - generic [ref=e553]:
+                    - generic [ref=e558]: Beauté
+                    - 'link "Fitness : qu’est-ce que le rucking, l’exercice qui favorise l''endurance et corrige la posture ?" [ref=e559]':
+                      - /url: /article/quest-ce-que-le-rucking
+                      - 'heading "Fitness : qu’est-ce que le rucking, l’exercice qui favorise l''endurance et corrige la posture ?" [level=3] [ref=e560]'
+                    - generic [ref=e561]:
+                      - generic [ref=e567]: Par Alexandra Lores
+                      - time [ref=e568]: 17 avril 2026
+                - button "La manucure de Hailey Bieber lors du deuxième week-end de Coachella est un hommage secret à Justin. beauté La manucure de Hailey Bieber lors du deuxième week-end de Coachella est un hommage secret à Justin. Par Margaux Anbouba 20 avril 2026" [ref=e569] [cursor=pointer]:
+                  - generic [ref=e575]:
+                    - img "La manucure de Hailey Bieber lors du deuxième week-end de Coachella est un hommage secret à Justin."
+                  - generic [ref=e576]:
+                    - generic [ref=e581]: beauté
+                    - link "La manucure de Hailey Bieber lors du deuxième week-end de Coachella est un hommage secret à Justin." [ref=e582]:
+                      - /url: /article/manucure-hailey-bieber-coachella
+                      - heading "La manucure de Hailey Bieber lors du deuxième week-end de Coachella est un hommage secret à Justin." [level=3] [ref=e583]
+                    - generic [ref=e584]:
+                      - generic [ref=e590]: Par Margaux Anbouba
+                      - time [ref=e591]: 20 avril 2026
+                - button "Quel est le meilleur moment pour prendre du collagène ? Beauté Quel est le meilleur moment pour prendre du collagène ? Par Audrey Noble 10 avril 2026" [ref=e592] [cursor=pointer]:
+                  - generic [ref=e598]:
+                    - img "Quel est le meilleur moment pour prendre du collagène ?"
+                  - generic [ref=e599]:
+                    - generic [ref=e604]: Beauté
+                    - link "Quel est le meilleur moment pour prendre du collagène ?" [ref=e605]:
+                      - /url: /article/meilleur-moment-prendre-collagene
+                      - heading "Quel est le meilleur moment pour prendre du collagène ?" [level=3] [ref=e606]
+                    - generic [ref=e607]:
+                      - generic [ref=e613]: Par Audrey Noble
+                      - time [ref=e614]: 10 avril 2026
+              - generic [ref=e616]:
+                - button "Comment la saison 3 d’Euphoria va-t-elle influencer les tendances beauté de l’été ? Beauté Comment la saison 3 d’Euphoria va-t-elle influencer les tendances beauté de l’été ? Par Elise Fabre 17 avril 2026" [ref=e617] [cursor=pointer]:
+                  - generic [ref=e623]:
+                    - img "Comment la saison 3 d’Euphoria va-t-elle influencer les tendances beauté de l’été ?"
+                  - generic [ref=e624]:
+                    - generic [ref=e629]: Beauté
+                    - link "Comment la saison 3 d’Euphoria va-t-elle influencer les tendances beauté de l’été ?" [ref=e630]:
+                      - /url: /article/euphoria-saison-3-tendance-beaute-maquillage
+                      - heading "Comment la saison 3 d’Euphoria va-t-elle influencer les tendances beauté de l’été ?" [level=3] [ref=e631]
+                    - generic [ref=e632]:
+                      - generic [ref=e638]: Par Elise Fabre
+                      - time [ref=e639]: 17 avril 2026
+                - button "Les électrolytes sont-ils les meilleurs alliés de l’hydratation ? Deux médecins répondent Beauté Les électrolytes sont-ils les meilleurs alliés de l’hydratation ? Deux médecins répondent Par Philipp Wehsack 15 avril 2026" [ref=e640] [cursor=pointer]:
+                  - generic [ref=e646]:
+                    - img "Les électrolytes sont-ils les meilleurs alliés de l’hydratation ? Deux médecins répondent"
+                  - generic [ref=e647]:
+                    - generic [ref=e652]: Beauté
+                    - link "Les électrolytes sont-ils les meilleurs alliés de l’hydratation ? Deux médecins répondent" [ref=e653]:
+                      - /url: /article/electrolytes-hydratation
+                      - heading "Les électrolytes sont-ils les meilleurs alliés de l’hydratation ? Deux médecins répondent" [level=3] [ref=e654]
+                    - generic [ref=e655]:
+                      - generic [ref=e661]: Par Philipp Wehsack
+                      - time [ref=e662]: 15 avril 2026
+                - 'button "Tendances ongles été 2026 : 5 manucures créatives à essayer pour les vacances Beauté Tendances ongles été 2026 : 5 manucures créatives à essayer pour les vacances Par Jeanne Ballion 17 avril 2026" [ref=e663] [cursor=pointer]':
+                  - generic [ref=e669]:
+                    - 'img "Tendances ongles été 2026 : 5 manucures créatives à essayer pour les vacances"'
+                  - generic [ref=e670]:
+                    - generic [ref=e675]: Beauté
+                    - 'link "Tendances ongles été 2026 : 5 manucures créatives à essayer pour les vacances" [ref=e676]':
+                      - /url: /article/tendances-ongles-ete-2026-vacances
+                      - 'heading "Tendances ongles été 2026 : 5 manucures créatives à essayer pour les vacances" [level=3] [ref=e677]'
+                    - generic [ref=e678]:
+                      - generic [ref=e684]: Par Jeanne Ballion
+                      - time [ref=e685]: 17 avril 2026
+        - generic [ref=e689]:
+          - heading "Culture" [level=2] [ref=e692]
+          - generic [ref=e694]:
+            - 'link "Des défilés de mode à TikTok en passant par Coachella : pourquoi la nostalgie devient-elle le moteur de la création ? Société Des défilés de mode à TikTok en passant par Coachella : pourquoi la nostalgie devient-elle le moteur de la création ? Par Julie Le Minor 16 avril 2026" [ref=e697] [cursor=pointer]':
+              - /url: /article/decryptage-pop-culture-nostalgie-celebrites
+              - generic [ref=e699]:
+                - 'img "Des défilés de mode à TikTok en passant par Coachella : pourquoi la nostalgie devient-elle le moteur de la création ?"'
+              - generic [ref=e702]:
+                - generic [ref=e705]: Société
+                - 'heading "Des défilés de mode à TikTok en passant par Coachella : pourquoi la nostalgie devient-elle le moteur de la création ?" [level=2] [ref=e706]'
+                - generic [ref=e710]: Par Julie Le Minor
+                - time [ref=e711]: 16 avril 2026
+            - generic [ref=e715]:
+              - generic [ref=e717]:
+                - button "Dua Lipa, Rosalía, Charli xcx… découvrez le studio français dont elles raffolent toutes musique Dua Lipa, Rosalía, Charli xcx… découvrez le studio français dont elles raffolent toutes Par Lolita Mang 16 avril 2026" [ref=e718] [cursor=pointer]:
+                  - generic [ref=e724]:
+                    - img "Dua Lipa, Rosalía, Charli xcx… découvrez le studio français dont elles raffolent toutes"
+                  - generic [ref=e725]:
+                    - generic [ref=e730]: musique
+                    - link "Dua Lipa, Rosalía, Charli xcx… découvrez le studio français dont elles raffolent toutes" [ref=e731]:
+                      - /url: /article/studio-boyer-grammy-awards-jack-antonoff-taylor-swift
+                      - heading "Dua Lipa, Rosalía, Charli xcx… découvrez le studio français dont elles raffolent toutes" [level=3] [ref=e732]
+                    - generic [ref=e733]:
+                      - generic [ref=e739]: Par Lolita Mang
+                      - time [ref=e740]: 16 avril 2026
+                - button "FKA Twigs et Patti Smith vous invitent à une prière sonore lors de la Biennale de Venise 2026 Art contemporain FKA Twigs et Patti Smith vous invitent à une prière sonore lors de la Biennale de Venise 2026 Par Marthe Mabille 16 avril 2026" [ref=e741] [cursor=pointer]:
+                  - generic [ref=e747]:
+                    - img "FKA Twigs et Patti Smith vous invitent à une prière sonore lors de la Biennale de Venise 2026"
+                  - generic [ref=e748]:
+                    - generic [ref=e753]: Art contemporain
+                    - link "FKA Twigs et Patti Smith vous invitent à une prière sonore lors de la Biennale de Venise 2026" [ref=e754]:
+                      - /url: /article/fka-twigs-patti-smith-exposition-sonore-biennale-venise-2026
+                      - heading "FKA Twigs et Patti Smith vous invitent à une prière sonore lors de la Biennale de Venise 2026" [level=3] [ref=e755]
+                    - generic [ref=e756]:
+                      - generic [ref=e762]: Par Marthe Mabille
+                      - time [ref=e763]: 16 avril 2026
+                - button "Ladji Diaby, le “roi des escrocs”, s'offre une première exposition personnelle à Lafayette Anticipations expositions Ladji Diaby, le “roi des escrocs”, s'offre une première exposition personnelle à Lafayette Anticipations Par Lolita Mang 16 avril 2026" [ref=e764] [cursor=pointer]:
+                  - generic [ref=e770]:
+                    - img "Ladji Diaby, le “roi des escrocs”, s'offre une première exposition personnelle à Lafayette Anticipations"
+                  - generic [ref=e771]:
+                    - generic [ref=e776]: expositions
+                    - link "Ladji Diaby, le “roi des escrocs”, s'offre une première exposition personnelle à Lafayette Anticipations" [ref=e777]:
+                      - /url: /article/ladji-diaby-lafayette-anticipations-exposition-interview
+                      - heading "Ladji Diaby, le “roi des escrocs”, s'offre une première exposition personnelle à Lafayette Anticipations" [level=3] [ref=e778]
+                    - generic [ref=e779]:
+                      - generic [ref=e785]: Par Lolita Mang
+                      - time [ref=e786]: 16 avril 2026
+              - generic [ref=e788]:
+                - button "Les cabotinages de Louis Garrel et Camille Cottin font de Juste une illusion la meilleure comédie française de l'année cinéma Les cabotinages de Louis Garrel et Camille Cottin font de Juste une illusion la meilleure comédie française de l'année Par Lolita Mang 14 avril 2026" [ref=e789] [cursor=pointer]:
+                  - generic [ref=e795]:
+                    - img "Les cabotinages de Louis Garrel et Camille Cottin font de Juste une illusion la meilleure comédie française de l'année"
+                  - generic [ref=e796]:
+                    - generic [ref=e801]: cinéma
+                    - link "Les cabotinages de Louis Garrel et Camille Cottin font de Juste une illusion la meilleure comédie française de l'année" [ref=e802]:
+                      - /url: /article/juste-une-illusion-film-toledano-nakache-avis-critique
+                      - heading "Les cabotinages de Louis Garrel et Camille Cottin font de Juste une illusion la meilleure comédie française de l'année" [level=3] [ref=e803]:
+                        - text: Les cabotinages de Louis Garrel et Camille Cottin font de
+                        - emphasis [ref=e804]: Juste une illusion
+                        - text: la meilleure comédie française de l'année
+                    - generic [ref=e805]:
+                      - generic [ref=e811]: Par Lolita Mang
+                      - time [ref=e812]: 14 avril 2026
+                - button "Elle Fanning va vous faire pleurer de rire dans Margo a des problèmes d’argent Séries Elle Fanning va vous faire pleurer de rire dans Margo a des problèmes d’argent Par Marthe Mabille 16 avril 2026" [ref=e813] [cursor=pointer]:
+                  - generic [ref=e819]:
+                    - img "Elle Fanning va vous faire pleurer de rire dans Margo a des problèmes d’argent"
+                  - generic [ref=e820]:
+                    - generic [ref=e825]: Séries
+                    - link "Elle Fanning va vous faire pleurer de rire dans Margo a des problèmes d’argent" [ref=e826]:
+                      - /url: /article/margo-a-des-problemes-dargent-serie-elle-fanning-michelle-pfeiffer-nicole-kidman
+                      - heading "Elle Fanning va vous faire pleurer de rire dans Margo a des problèmes d’argent" [level=3] [ref=e827]:
+                        - text: Elle Fanning va vous faire pleurer de rire dans
+                        - emphasis [ref=e828]: Margo a des problèmes d’argent
+                    - generic [ref=e829]:
+                      - generic [ref=e835]: Par Marthe Mabille
+                      - time [ref=e836]: 16 avril 2026
+                - button "Pourquoi Mother Mary est le film pop le plus attendu de 2026 cinéma Pourquoi Mother Mary est le film pop le plus attendu de 2026 Par Marthe Mabille 14 avril 2026" [ref=e837] [cursor=pointer]:
+                  - generic [ref=e843]:
+                    - img "Pourquoi Mother Mary est le film pop le plus attendu de 2026"
+                  - generic [ref=e844]:
+                    - generic [ref=e849]: cinéma
+                    - link "Pourquoi Mother Mary est le film pop le plus attendu de 2026" [ref=e850]:
+                      - /url: /article/anne-hathaway-michaela-coel-film-romantique-mother-mary
+                      - heading "Pourquoi Mother Mary est le film pop le plus attendu de 2026" [level=3] [ref=e851]:
+                        - text: Pourquoi
+                        - emphasis [ref=e852]: Mother Mary
+                        - text: est le film pop le plus attendu de 2026
+                    - generic [ref=e853]:
+                      - generic [ref=e859]: Par Marthe Mabille
+                      - time [ref=e860]: 14 avril 2026
+        - generic [ref=e865]:
+          - heading "Bijoux" [level=2] [ref=e867]
+          - generic [ref=e868]:
+            - button "Exit le léopard, cette version bucolique du bestiaire obsède la Gen Z Bijoux Exit le léopard, cette version bucolique du bestiaire obsède la Gen Z Par Jessica Scemama 17 avril 2026" [ref=e869] [cursor=pointer]:
+              - generic [ref=e875]:
+                - img "Exit le léopard, cette version bucolique du bestiaire obsède la Gen Z"
+              - generic [ref=e876]:
+                - generic [ref=e881]: Bijoux
+                - link "Exit le léopard, cette version bucolique du bestiaire obsède la Gen Z" [ref=e882]:
+                  - /url: /article/bestiaire-bucolique-tendance
+                  - heading "Exit le léopard, cette version bucolique du bestiaire obsède la Gen Z" [level=3] [ref=e883]
+                - generic [ref=e884]:
+                  - generic [ref=e890]: Par Jessica Scemama
+                  - time [ref=e891]: 17 avril 2026
+            - button "Jacob Elordi, Bad Bunny, Timothée Chalamet… Pourquoi les “hot guys” ne portent-ils plus de montres opulentes ? Horlogerie Jacob Elordi, Bad Bunny, Timothée Chalamet… Pourquoi les “hot guys” ne portent-ils plus de montres opulentes ? Par Jessica Scemama 16 avril 2026" [ref=e892] [cursor=pointer]:
+              - generic [ref=e898]:
+                - img "Jacob Elordi, Bad Bunny, Timothée Chalamet… Pourquoi les “hot guys” ne portent-ils plus de montres opulentes ?"
+              - generic [ref=e899]:
+                - generic [ref=e904]: Horlogerie
+                - link "Jacob Elordi, Bad Bunny, Timothée Chalamet… Pourquoi les “hot guys” ne portent-ils plus de montres opulentes ?" [ref=e905]:
+                  - /url: /article/sex-symbols-montres-fines-tendance
+                  - heading "Jacob Elordi, Bad Bunny, Timothée Chalamet… Pourquoi les “hot guys” ne portent-ils plus de montres opulentes ?" [level=3] [ref=e906]
+                - generic [ref=e907]:
+                  - generic [ref=e913]: Par Jessica Scemama
+                  - time [ref=e914]: 16 avril 2026
+            - button "Cet été, les colliers massifs éclipseront le minimalisme bijoux Cet été, les colliers massifs éclipseront le minimalisme Par Laura Hawkins 16 avril 2026" [ref=e915] [cursor=pointer]:
+              - generic [ref=e921]:
+                - img "Cet été, les colliers massifs éclipseront le minimalisme"
+              - generic [ref=e922]:
+                - generic [ref=e927]: bijoux
+                - link "Cet été, les colliers massifs éclipseront le minimalisme" [ref=e928]:
+                  - /url: /article/pendentifs-discrets-collier-massif
+                  - heading "Cet été, les colliers massifs éclipseront le minimalisme" [level=3] [ref=e929]
+                - generic [ref=e930]:
+                  - generic [ref=e936]: Par Laura Hawkins
+                  - time [ref=e937]: 16 avril 2026
+            - button "Recouvert de 3 025 diamants, ce (vrai) sac Birkin en or est l'un des plus spectaculaires au monde Bijoux Recouvert de 3 025 diamants, ce (vrai) sac Birkin en or est l'un des plus spectaculaires au monde Par Jessica Scemama 15 avril 2026" [ref=e938] [cursor=pointer]:
+              - generic [ref=e944]:
+                - img "Recouvert de 3 025 diamants, ce (vrai) sac Birkin en or est l'un des plus spectaculaires au monde"
+              - generic [ref=e945]:
+                - generic [ref=e950]: Bijoux
+                - link "Recouvert de 3 025 diamants, ce (vrai) sac Birkin en or est l'un des plus spectaculaires au monde" [ref=e951]:
+                  - /url: /article/hermes-sacs-bijoux-or-diamants
+                  - heading "Recouvert de 3 025 diamants, ce (vrai) sac Birkin en or est l'un des plus spectaculaires au monde" [level=3] [ref=e952]
+                - generic [ref=e953]:
+                  - generic [ref=e959]: Par Jessica Scemama
+                  - time [ref=e960]: 15 avril 2026
+        - generic [ref=e964]:
+          - heading "Shopping" [level=2] [ref=e967]
+          - generic [ref=e969]:
+            - 'link "Invitée à un mariage : les 6 tendances couleurs sur lesquelles miser cet été 2026 mariage Invitée à un mariage : les 6 tendances couleurs sur lesquelles miser cet été 2026 Par Marie Courtois 16 avril 2026" [ref=e972] [cursor=pointer]':
+              - /url: /article/couleurs-invitee-mariage-2026
+              - generic [ref=e974]:
+                - 'img "Invitée à un mariage : les 6 tendances couleurs sur lesquelles miser cet été 2026"'
+              - generic [ref=e977]:
+                - generic [ref=e980]: mariage
+                - 'heading "Invitée à un mariage : les 6 tendances couleurs sur lesquelles miser cet été 2026" [level=2] [ref=e981]'
+                - generic [ref=e985]: Par Marie Courtois
+                - time [ref=e986]: 16 avril 2026
+            - generic [ref=e990]:
+              - generic [ref=e992]:
+                - button "D’un sac Loewe x Paula's Ibiza à un bermuda en jean… Voici les nouveautés mode de la semaine mode D’un sac Loewe x Paula's Ibiza à un bermuda en jean… Voici les nouveautés mode de la semaine Par Marie Courtois 20 avril 2026" [ref=e993] [cursor=pointer]:
+                  - generic [ref=e999]:
+                    - img "D’un sac Loewe x Paula's Ibiza à un bermuda en jean… Voici les nouveautés mode de la semaine"
+                  - generic [ref=e1000]:
+                    - generic [ref=e1005]: mode
+                    - link "D’un sac Loewe x Paula's Ibiza à un bermuda en jean… Voici les nouveautés mode de la semaine" [ref=e1006]:
+                      - /url: /mode/article/nouveautes-mode
+                      - heading "D’un sac Loewe x Paula's Ibiza à un bermuda en jean… Voici les nouveautés mode de la semaine" [level=3] [ref=e1007]
+                    - generic [ref=e1008]:
+                      - generic [ref=e1014]: Par Marie Courtois
+                      - time [ref=e1015]: 20 avril 2026
+                - button "Ce baume capillaire répare les cheveux en seulement 3 minutes beauté Ce baume capillaire répare les cheveux en seulement 3 minutes Par Marie Courtois 13 avril 2026" [ref=e1016] [cursor=pointer]:
+                  - generic [ref=e1022]:
+                    - img "Ce baume capillaire répare les cheveux en seulement 3 minutes"
+                  - generic [ref=e1023]:
+                    - generic [ref=e1028]: beauté
+                    - link "Ce baume capillaire répare les cheveux en seulement 3 minutes" [ref=e1029]:
+                      - /url: /article/baume-capillaire-ouai-bond-repair-balm
+                      - heading "Ce baume capillaire répare les cheveux en seulement 3 minutes" [level=3] [ref=e1030]
+                    - generic [ref=e1031]:
+                      - generic [ref=e1037]: Par Marie Courtois
+                      - time [ref=e1038]: 13 avril 2026
+                - button "Les 8 tendances vestes du printemps-été 2026 mode Les 8 tendances vestes du printemps-été 2026 Par Marie Courtois 14 avril 2026" [ref=e1039] [cursor=pointer]:
+                  - generic [ref=e1045]:
+                    - img "Les 8 tendances vestes du printemps-été 2026"
+                  - generic [ref=e1046]:
+                    - generic [ref=e1051]: mode
+                    - link "Les 8 tendances vestes du printemps-été 2026" [ref=e1052]:
+                      - /url: /article/tendances-vestes-printemps-ete-2026
+                      - heading "Les 8 tendances vestes du printemps-été 2026" [level=3] [ref=e1053]
+                    - generic [ref=e1054]:
+                      - generic [ref=e1060]: Par Marie Courtois
+                      - time [ref=e1061]: 14 avril 2026
+              - generic [ref=e1063]:
+                - button "Ce pantalon bohème controversé sera la tendance incontournable de l'été 2026 mode Ce pantalon bohème controversé sera la tendance incontournable de l'été 2026 Par Marie Courtois 15 avril 2026" [ref=e1064] [cursor=pointer]:
+                  - generic [ref=e1070]:
+                    - img "Ce pantalon bohème controversé sera la tendance incontournable de l'été 2026"
+                  - generic [ref=e1071]:
+                    - generic [ref=e1076]: mode
+                    - link "Ce pantalon bohème controversé sera la tendance incontournable de l'été 2026" [ref=e1077]:
+                      - /url: /article/tendance-pantalon-ballon
+                      - heading "Ce pantalon bohème controversé sera la tendance incontournable de l'été 2026" [level=3] [ref=e1078]
+                    - generic [ref=e1079]:
+                      - generic [ref=e1085]: Par Marie Courtois
+                      - time [ref=e1086]: 15 avril 2026
+                - button "7 chaussures d'été à emprunter aux It girls des années 90 mode 7 chaussures d'été à emprunter aux It girls des années 90 Par Olivia Allen 16 avril 2026" [ref=e1087] [cursor=pointer]:
+                  - generic [ref=e1093]:
+                    - img "7 chaussures d'été à emprunter aux It girls des années 90"
+                  - generic [ref=e1094]:
+                    - generic [ref=e1099]: mode
+                    - link "7 chaussures d'été à emprunter aux It girls des années 90" [ref=e1100]:
+                      - /url: /article/chaussures-ete-annees-90
+                      - heading "7 chaussures d'été à emprunter aux It girls des années 90" [level=3] [ref=e1101]
+                    - generic [ref=e1102]:
+                      - generic [ref=e1108]: Par Olivia Allen
+                      - time [ref=e1109]: 16 avril 2026
+        - generic [ref=e1114]:
+          - heading "Mariage" [level=2] [ref=e1116]
+          - generic [ref=e1117]:
+            - button "Pour leur mariage à Megève, ce couple s'est dit “oui” sur les pistes de ski… et la mariée portait une robe avec des boots de neige Chanel icon Gallery vrai mariage Pour leur mariage à Megève, ce couple s'est dit “oui” sur les pistes de ski… et la mariée portait une robe avec des boots de neige Chanel Par Marie Périer 17 avril 2026" [ref=e1118] [cursor=pointer]:
+              - generic [ref=e1120]:
+                - generic [ref=e1124]:
+                  - img "Pour leur mariage à Megève, ce couple s'est dit “oui” sur les pistes de ski… et la mariée portait une robe avec des boots de neige Chanel"
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: icon
+                  - img "Gallery" [ref=e1128]
+              - generic [ref=e1130]:
+                - generic [ref=e1135]: vrai mariage
+                - link "Pour leur mariage à Megève, ce couple s'est dit “oui” sur les pistes de ski… et la mariée portait une robe avec des boots de neige Chanel" [ref=e1136]:
+                  - /url: /galerie/mariage-megeve-mindy-andrew-pistes-ski-robe-mariee-boots-neige-chanel
+                  - heading "Pour leur mariage à Megève, ce couple s'est dit “oui” sur les pistes de ski… et la mariée portait une robe avec des boots de neige Chanel" [level=3] [ref=e1137]
+                - generic [ref=e1138]:
+                  - generic [ref=e1144]: Par Marie Périer
+                  - time [ref=e1145]: 17 avril 2026
+            - button "Après avoir marqué les Jeux Olympiques de Paris, les athlètes Noah Lyles et Junelle Bromfield ont organisé leur fabuleux mariage sous le signe de la danse et de l’amour icon Gallery Mariage Après avoir marqué les Jeux Olympiques de Paris, les athlètes Noah Lyles et Junelle Bromfield ont organisé leur fabuleux mariage sous le signe de la danse et de l’amour Par Shelby Wax 15 avril 2026" [ref=e1146] [cursor=pointer]:
+              - generic [ref=e1148]:
+                - generic [ref=e1152]:
+                  - img "Après avoir marqué les Jeux Olympiques de Paris, les athlètes Noah Lyles et Junelle Bromfield ont organisé leur fabuleux mariage sous le signe de la danse et de l’amour"
+                - generic [ref=e1153]:
+                  - generic [ref=e1154]: icon
+                  - img "Gallery" [ref=e1156]
+              - generic [ref=e1158]:
+                - generic [ref=e1163]: Mariage
+                - link "Après avoir marqué les Jeux Olympiques de Paris, les athlètes Noah Lyles et Junelle Bromfield ont organisé leur fabuleux mariage sous le signe de la danse et de l’amour" [ref=e1164]:
+                  - /url: /galerie/mariage-athletes-noah-lyles-et-junelle-bromfield-jeux-olympiques
+                  - heading "Après avoir marqué les Jeux Olympiques de Paris, les athlètes Noah Lyles et Junelle Bromfield ont organisé leur fabuleux mariage sous le signe de la danse et de l’amour" [level=3] [ref=e1165]
+                - generic [ref=e1166]:
+                  - generic [ref=e1172]: Par Shelby Wax
+                  - time [ref=e1173]: 15 avril 2026
+            - button "À Istanbul, ce mariage a célébré les rituels indiens au bord du Bosphore icon Gallery Mariage À Istanbul, ce mariage a célébré les rituels indiens au bord du Bosphore Par Sara Hussain 10 avril 2026" [ref=e1174] [cursor=pointer]:
+              - generic [ref=e1176]:
+                - generic [ref=e1180]:
+                  - img "À Istanbul, ce mariage a célébré les rituels indiens au bord du Bosphore"
+                - generic [ref=e1181]:
+                  - generic [ref=e1182]: icon
+                  - img "Gallery" [ref=e1184]
+              - generic [ref=e1186]:
+                - generic [ref=e1191]: Mariage
+                - link "À Istanbul, ce mariage a célébré les rituels indiens au bord du Bosphore" [ref=e1192]:
+                  - /url: /galerie/mariage-istanbul-rituels-indiens
+                  - heading "À Istanbul, ce mariage a célébré les rituels indiens au bord du Bosphore" [level=3] [ref=e1193]
+                - generic [ref=e1194]:
+                  - generic [ref=e1200]: Par Sara Hussain
+                  - time [ref=e1201]: 10 avril 2026
+            - button "Quelles sont les meilleures idées de cadeaux de mariage à offrir à de nouveaux mariés ? Shopping Quelles sont les meilleures idées de cadeaux de mariage à offrir à de nouveaux mariés ? Par Amandine Lhoste 9 avril 2026" [ref=e1202] [cursor=pointer]:
+              - generic [ref=e1208]:
+                - img "Quelles sont les meilleures idées de cadeaux de mariage à offrir à de nouveaux mariés ?"
+              - generic [ref=e1209]:
+                - generic [ref=e1214]: Shopping
+                - link "Quelles sont les meilleures idées de cadeaux de mariage à offrir à de nouveaux mariés ?" [ref=e1215]:
+                  - /url: /article/meilleure-idee-cadeau-mariage-maries
+                  - heading "Quelles sont les meilleures idées de cadeaux de mariage à offrir à de nouveaux mariés ?" [level=3] [ref=e1216]
+                - generic [ref=e1217]:
+                  - generic [ref=e1223]: Par Amandine Lhoste
+                  - time [ref=e1224]: 9 avril 2026
+        - generic [ref=e1231]:
+          - heading "Écologie" [level=2] [ref=e1233]
+          - generic [ref=e1234]:
+            - button "9 moments de mode durable de la Fashion Week automne-hiver 2026-2027 Mode 9 moments de mode durable de la Fashion Week automne-hiver 2026-2027 Par Emily Chan 13 mars 2026" [ref=e1235] [cursor=pointer]:
+              - generic [ref=e1241]:
+                - img "9 moments de mode durable de la Fashion Week automne-hiver 2026-2027"
+              - generic [ref=e1242]:
+                - generic [ref=e1247]: Mode
+                - link "9 moments de mode durable de la Fashion Week automne-hiver 2026-2027" [ref=e1248]:
+                  - /url: /article/9-moments-de-mode-durable-de-lautomne-hiver-2026
+                  - heading "9 moments de mode durable de la Fashion Week automne-hiver 2026-2027" [level=3] [ref=e1249]
+                - generic [ref=e1250]:
+                  - generic [ref=e1256]: Par Emily Chan
+                  - time [ref=e1257]: 13 mars 2026
+            - 'button "Paillettes biodégradables : l’alternative durable au plastique pour rayonner au Nouvel An Green Paillettes biodégradables : l’alternative durable au plastique pour rayonner au Nouvel An Par Emily Chan et Amandine Lhoste 23 décembre 2025" [ref=e1258] [cursor=pointer]':
+              - generic [ref=e1264]:
+                - 'img "Paillettes biodégradables : l’alternative durable au plastique pour rayonner au Nouvel An"'
+              - generic [ref=e1265]:
+                - generic [ref=e1270]: Green
+                - 'link "Paillettes biodégradables : l’alternative durable au plastique pour rayonner au Nouvel An" [ref=e1271]':
+                  - /url: /article/paillettes-interdiction-alternatives-durables
+                  - 'heading "Paillettes biodégradables : l’alternative durable au plastique pour rayonner au Nouvel An" [level=3] [ref=e1272]'
+                - generic [ref=e1273]:
+                  - generic [ref=e1278]:
+                    - generic [ref=e1279]: Par Emily Chan
+                    - text: et
+                    - generic [ref=e1280]: Amandine Lhoste
+                  - time [ref=e1281]: 23 décembre 2025
+            - 'button "Cadeaux de Noël : cette experte mode nous livre ses conseils pour faire un sans-faute Mode Cadeaux de Noël : cette experte mode nous livre ses conseils pour faire un sans-faute Par Héloïse Salessy 18 décembre 2025" [ref=e1282] [cursor=pointer]':
+              - generic [ref=e1288]:
+                - 'img "Cadeaux de Noël : cette experte mode nous livre ses conseils pour faire un sans-faute"'
+              - generic [ref=e1289]:
+                - generic [ref=e1294]: Mode
+                - 'link "Cadeaux de Noël : cette experte mode nous livre ses conseils pour faire un sans-faute" [ref=e1295]':
+                  - /url: /article/cadeaux-noel-achat-revente-experte-mode
+                  - 'heading "Cadeaux de Noël : cette experte mode nous livre ses conseils pour faire un sans-faute" [level=3] [ref=e1296]'
+                - generic [ref=e1297]:
+                  - generic [ref=e1303]: Par Héloïse Salessy
+                  - time [ref=e1304]: 18 décembre 2025
+            - 'button "Cadeaux de Noël : 12 bougies non toxiques pour réchauffer (sans polluer) l''air intérieur cet hiver Green Cadeaux de Noël : 12 bougies non toxiques pour réchauffer (sans polluer) l''air intérieur cet hiver Par Marie Bladt 17 décembre 2025" [ref=e1305] [cursor=pointer]':
+              - generic [ref=e1311]:
+                - 'img "Cadeaux de Noël : 12 bougies non toxiques pour réchauffer (sans polluer) l''air intérieur cet hiver"'
+              - generic [ref=e1312]:
+                - generic [ref=e1317]: Green
+                - 'link "Cadeaux de Noël : 12 bougies non toxiques pour réchauffer (sans polluer) l''air intérieur cet hiver" [ref=e1318]':
+                  - /url: /article/bougies-non-toxiques
+                  - 'heading "Cadeaux de Noël : 12 bougies non toxiques pour réchauffer (sans polluer) l''air intérieur cet hiver" [level=3] [ref=e1319]'
+                - generic [ref=e1320]:
+                  - generic [ref=e1326]: Par Marie Bladt
+                  - time [ref=e1327]: 17 décembre 2025
+    - contentinfo [ref=e1333]:
+      - generic [ref=e1334]:
+        - generic [ref=e1335]:
+          - link "Vogue" [ref=e1337] [cursor=pointer]:
+            - /url: /
+            - img "Vogue" [ref=e1340]
+          - list [ref=e1342]:
+            - listitem [ref=e1343]:
+              - link "Facebook" [ref=e1344] [cursor=pointer]:
+                - /url: https://www.facebook.com/VogueFrance
+                - img "Facebook" [ref=e1347]
+            - listitem [ref=e1349]:
+              - link "Follow us on X" [ref=e1350] [cursor=pointer]:
+                - /url: https://x.com/VogueFrance
+                - img "X" [ref=e1353]
+            - listitem [ref=e1355]:
+              - link "Instagram" [ref=e1356] [cursor=pointer]:
+                - /url: https://www.instagram.com/voguefrance/
+                - img "Instagram" [ref=e1359]
+            - listitem [ref=e1361]:
+              - link "Pinterest" [ref=e1362] [cursor=pointer]:
+                - /url: https://fr.pinterest.com/voguefrance/
+                - img "Pinterest" [ref=e1365]
+            - listitem [ref=e1367]:
+              - link "Tiktok" [ref=e1368] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@voguefrance
+                - img "Tiktok" [ref=e1371]
+        - navigation "A lire aussi sur Vogue" [ref=e1373]:
+          - paragraph [ref=e1374]: A lire aussi sur Vogue
+          - list [ref=e1375]:
+            - listitem [ref=e1376]:
+              - link "Mode" [ref=e1377] [cursor=pointer]:
+                - /url: /mode
+            - listitem [ref=e1378]:
+              - link "Beauté" [ref=e1379] [cursor=pointer]:
+                - /url: /beaute
+            - listitem [ref=e1380]:
+              - link "Lifestyle" [ref=e1381] [cursor=pointer]:
+                - /url: /lifestyle
+            - listitem [ref=e1382]:
+              - link "Culture" [ref=e1383] [cursor=pointer]:
+                - /url: /culture
+            - listitem [ref=e1384]:
+              - link "Défilés" [ref=e1385] [cursor=pointer]:
+                - /url: https://www.vogue.com/fashion-shows?utm_source=vogue.fr&utm_medium=internal
+            - listitem [ref=e1386]:
+              - link "Video" [ref=e1387] [cursor=pointer]:
+                - /url: /video
+            - listitem [ref=e1388]:
+              - link "Vogue Eshop" [ref=e1389] [cursor=pointer]:
+                - /url: https://shop.vogue.com/de/?utm_source=brand&utm_medium=website
+            - listitem [ref=e1390]:
+              - link "Printemps" [ref=e1391] [cursor=pointer]:
+                - /url: https://www.vogue.fr/dossier/special-printemps
+        - navigation "Condé Nast France" [ref=e1392]:
+          - paragraph [ref=e1393]: Condé Nast France
+          - list [ref=e1394]:
+            - listitem [ref=e1395]:
+              - link "AD" [ref=e1396] [cursor=pointer]:
+                - /url: https://www.admagazine.fr/
+            - listitem [ref=e1397]:
+              - link "Vogue" [ref=e1398] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e1399]:
+              - link "Vanity Fair" [ref=e1400] [cursor=pointer]:
+                - /url: https://www.vanityfair.fr
+            - listitem [ref=e1401]:
+              - link "GQ" [ref=e1402] [cursor=pointer]:
+                - /url: https://www.gqmagazine.fr/
+        - generic [ref=e1404]:
+          - navigation "Notices" [ref=e1405]:
+            - list [ref=e1406]:
+              - listitem [ref=e1407]:
+                - link "À propos de Vogue France" [ref=e1408] [cursor=pointer]:
+                  - /url: /info/a-propos-de-vogue-france
+              - listitem [ref=e1409]:
+                - text: "|"
+                - link "Contact" [ref=e1410] [cursor=pointer]:
+                  - /url: /info/contact
+              - listitem [ref=e1411]:
+                - text: "|"
+                - link "Abonnement" [ref=e1412] [cursor=pointer]:
+                  - /url: https://abonnement.condenast.fr/site/condenast/VOGUE/fr/kiosque/titre.html
+              - listitem [ref=e1413]:
+                - text: "|"
+                - link "Newsletter" [ref=e1414] [cursor=pointer]:
+                  - /url: /newsletter
+              - listitem [ref=e1415]:
+                - text: "|"
+                - link "Mentions Légales" [ref=e1416] [cursor=pointer]:
+                  - /url: /info/mentions-legales
+              - listitem [ref=e1417]:
+                - text: "|"
+                - link "Politique de confidentialité" [ref=e1418] [cursor=pointer]:
+                  - /url: /info/politique-de-confidentialite
+              - listitem [ref=e1419]:
+                - text: "|"
+                - link "Cookies" [ref=e1420] [cursor=pointer]:
+                  - /url: /info/cookies
+              - listitem [ref=e1421]:
+                - text: "|"
+                - link "Devenir panéliste" [ref=e1422] [cursor=pointer]:
+                  - /url: https://www.clubcondenast.fr/inscription/?ayn_magazine=1
+              - listitem [ref=e1423]:
+                - text: "|"
+                - link "Site Map" [ref=e1424] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=e1425]:
+                - text: "|"
+                - img [ref=e1427]
+                - button "Manage preferences" [ref=e1439] [cursor=pointer]
+          - paragraph [ref=e1441]: 2026 Les Publications Condé Nast
+          - generic [ref=e1443]:
+            - heading "Select international site" [level=6] [ref=e1444]
+            - button "Select international site" [ref=e1445] [cursor=pointer]:
+              - generic [ref=e1446]: France
+              - img [ref=e1448]
