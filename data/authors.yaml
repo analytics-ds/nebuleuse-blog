@@ -157,34 +157,36 @@ kevin-moreau:
   avatar: images/authors/kevin-moreau.jpg
   linkedinUrl: ""
   jobTitle:
-    fr: Journaliste joaillerie masculine & genderless
-    en: Men's and genderless jewelry journalist
+    fr: Expert joaillerie vintage & seconde main
+    en: Vintage & pre-owned jewelry expert
   role:
-    fr: Spécialiste bijoux masculins & genderless
-    en: Men's & genderless jewelry specialist
+    fr: Spécialiste bijoux vintage & seconde main
+    en: Vintage & pre-owned jewelry specialist
   bio:
-    fr: "Kevin Moreau couvre l'émergence de la joaillerie masculine et genderless depuis 6 ans. Il analyse les collections unisexe, les créateurs qui cassent les codes et les pièces qui traversent les genres : chaînes, anneaux, créoles sobres."
-    en: "Kevin Moreau has covered the rise of men's and genderless jewelry for 6 years. He analyzes unisex collections, creators breaking codes and pieces that cross genders: chains, rings, sober hoops."
+    fr: "Kevin Moreau chine, authentifie et valorise les bijoux vintage et de seconde main depuis 10 ans. Il décortique les cotes, les signatures de maisons et les pièges des marchés aux puces et ventes en ligne pour guider les acheteuses vers des pièces qui prennent de la valeur."
+    en: "Kevin Moreau sources, authenticates and appraises vintage and pre-owned jewelry, with 10 years of experience. He decodes auction prices, house signatures and flea-market pitfalls to guide buyers toward pieces that appreciate over time."
   expertise:
-    - Joaillerie masculine
-    - Genderless
-    - Chaînes
-    - Bagues
-    - Créateurs émergents
-    - Unisex
+    - Bijoux vintage
+    - Seconde main
+    - Authentification
+    - Marché de l'occasion
+    - Cotes et valorisation
+    - Signatures de maisons
   topics:
-    - joaillerie masculine
-    - bijoux homme
-    - genderless
-    - unisex
-    - chaine
-    - bague homme
-    - piercing homme
-    - creole sobre
-    - collier homme
-    - createurs emergents
-    - non-binaire
-    - mode masculine
+    - vintage
+    - seconde main
+    - bijou ancien
+    - authentification
+    - cote bijou
+    - valorisation
+    - marche occasion
+    - signature bijou
+    - poincon
+    - brocante bijou
+    - vente aux encheres
+    - chiner bijou
+    - retro
+    - heritage bijou
 
 sophie-martin:
   id: sophie-martin
