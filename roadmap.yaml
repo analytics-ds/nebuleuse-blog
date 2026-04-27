@@ -77,12 +77,78 @@
 #   longue traine).
 
 articles:
-  # ----- exemple (a supprimer ou remplacer) -----
-  - kw: "exemple de mot cle"
-    category: "Exemple de categorie"
-    volume: 1200
-    kd: 35
+
+  - kw: "comment choisir ses boucles d oreilles"
+    category: "Boucles d'oreilles"
+    volume: null
+    kd: null
     scheduled_date: "2026-04-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "piercing nez douleur cicatrisation"
+    category: "Piercings"
+    volume: null
+    kd: null
+    scheduled_date: "2026-05-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bijoux de corps tendance femme"
+    category: "Bijoux de corps"
+    volume: null
+    kd: null
+    scheduled_date: "2026-05-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "boucles d oreilles hypoallergeniques"
+    category: "Boucles d'oreilles"
+    volume: null
+    kd: null
+    scheduled_date: "2026-05-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quel metal choisir pour piercing"
+    category: "Piercings"
+    volume: null
+    kd: null
+    scheduled_date: "2026-05-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bijoux fantaisie femme tendance"
+    category: "Bijoux de corps"
+    volume: null
+    kd: null
+    scheduled_date: "2026-05-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment entretenir ses bijoux"
+    category: "Actualites"
+    volume: null
+    kd: null
+    scheduled_date: "2026-05-19"
     status: todo
     published_date: null
     published_url_fr: null
