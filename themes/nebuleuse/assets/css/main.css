@@ -998,7 +998,7 @@ img {
 
 .toc nav ul li a {
     font-family: var(--font-ui);
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     color: var(--text-light);
     text-decoration: none;
     transition: color var(--transition-fast);
@@ -1032,7 +1032,7 @@ img {
 }
 
 .toc nav ul ul li a {
-    font-size: 0.75rem;
+    font-size: 0.68rem;
     color: var(--gray-400);
     padding: 3px 0;
 }
