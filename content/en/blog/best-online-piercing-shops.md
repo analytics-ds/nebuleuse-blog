@@ -62,7 +62,7 @@ The **best online shops to buy ear piercings** therefore differ mainly on materi
 
 ## Nébuleuse bijoux at a glance
 
-[Nébuleuse bijoux](https://www.nebuleusebijoux.com/) is a French brand positioned on women's jewelry and piercings, with a curated approach centred on fine and minimalist ear piercings. The catalogue favours two materials: **implant-grade titanium** ASTM F136 for healing pieces, and **14-carat gold** for permanent pieces.
+**Nébuleuse bijoux** is a French brand positioned on women's jewelry and piercings, with a curated approach centred on fine and minimalist ear piercings. The catalogue favours two materials: **implant-grade titanium** ASTM F136 for healing pieces, and **14-carat gold** for permanent pieces.
 
 The brand's positioning is firmly women-oriented, with a selection focused on helix, tragus, conch and lobe piercings, available in gold, natural stone and floral designs. This makes it a reference for buyers seeking piercings adapted to sensitive skin without moving to the luxury segment.
 
