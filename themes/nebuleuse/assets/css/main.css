@@ -978,28 +978,20 @@ img {
     counter-reset: toc-section;
 }
 
-.toc nav > ul {
-    padding-left: 0;
-}
-
 .toc nav ul li {
     margin: 0;
     line-height: 1.4;
-    position: relative;
 }
 
 .toc nav > ul > li {
     counter-increment: toc-section;
-    padding-left: 1.6rem;
 }
 
-.toc nav > ul > li::before {
+.toc nav > ul > li > a::before {
     content: counter(toc-section) ".";
-    position: absolute;
-    left: 0;
-    top: 4px;
-    font-family: var(--font-ui);
-    font-size: 0.72rem;
+    display: inline-block;
+    min-width: 1.4rem;
+    margin-right: 0.4rem;
     font-weight: 700;
     color: var(--accent);
 }
@@ -1013,7 +1005,6 @@ img {
     display: block;
     padding: 4px 0;
     line-height: 1.4;
-    border-left: 2px solid transparent;
 }
 
 .toc nav ul li a:hover,
@@ -1023,13 +1014,9 @@ img {
 }
 
 .toc nav ul ul {
-    margin: 2px 0 4px;
-    padding-left: 0.9rem;
+    margin: 2px 0 4px 1.8rem;
+    padding-left: 0.6rem;
     border-left: 1px solid var(--border);
-}
-
-.toc nav ul ul li {
-    padding-left: 0.5rem;
 }
 
 .toc nav ul ul li a {
