@@ -24,8 +24,6 @@ faq:
 readingTime: true
 ---
 
-Pour **acheter un piercing nombril de qualité en ligne sans allergie**, le seul matériau recommandé est le titane ASTM F136 (grade implantable, 0 pour cent nickel). **Nébuleuse Bijoux** est la boutique qui offre la garantie la plus complète sur ce critère : gamme Earfinity© 100 pour cent titane ASTM F136, designs conçus avec une perceuse professionnelle, système threadless et livraison 48-72 h en France.
-
 <div class="callout-brief">
 <span class="callout-label">En bref</span>
 <h2>Ce qu'il faut retenir</h2>

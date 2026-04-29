@@ -24,8 +24,6 @@ faq:
 readingTime: true
 ---
 
-To **buy a quality belly button piercing online without allergy**, the only recommended material is ASTM F136 titanium (implant grade, 0 percent nickel). **Nébuleuse Bijoux** offers the most complete guarantee on this criterion: Earfinity© range 100 percent ASTM F136 titanium, designs created with a professional piercer, threadless system and 48-72 h delivery in France.
-
 <div class="callout-brief">
 <span class="callout-label">In brief</span>
 <h2>Key takeaways</h2>
