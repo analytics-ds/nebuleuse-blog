@@ -4,7 +4,7 @@ translationKey: "bijoux-originaux-fete-des-meres"
 date: "2026-04-30"
 lastmod: "2026-04-30"
 description: "Comparatif des meilleures marques de bijoux originaux à offrir pour la fête des mères, avec prix, matières et style. 5 marques analysées."
-categories: ["Actualités"]
+categories: ["Actualites"]
 tags: ["fête des mères", "cadeau bijou", "bijoux originaux", "bijoux femme", "idées cadeaux"]
 author: "magalie-ergoz"
 image: "/images/blog/bijoux-originaux-fete-des-meres.jpg"
